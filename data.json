@@ -1,0 +1,68 @@
+[
+  {
+    "id": "q_ch2_01",
+    "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+    "topic": "Vật chất và Ý thức",
+    "difficulty": "Thông hiểu & Vận dụng",
+    "question": "Theo quan điểm của Chủ nghĩa duy vật biện chứng, yếu tố nào đóng vai trò là nguồn gốc xã hội trực tiếp và quan trọng nhất quyết định sự hình thành và phát triển của ý thức con người?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sự phát triển hoàn thiện của bộ óc con người và hệ thần kinh trung ương qua hàng triệu năm tiến hóa sinh học."
+      },
+      {
+        "key": "B",
+        "text": "Hoạt động lao động thực tiễn và sự ra đời của ngôn ngữ trong mối quan hệ xã hội giữa con người với con người."
+      },
+      {
+        "key": "C",
+        "text": "Sự tác động trực tiếp của các hiện tượng tự nhiên khách quan lên năm giác quan của con người."
+      },
+      {
+        "key": "D",
+        "text": "Sự khai sáng của một lực lượng tinh thần tối cao hoặc ý niệm tuyệt đối tồn tại trước giới tự nhiên."
+      }
+    ],
+    "correctAnswer": "B",
+    "generalExplanation": "Theo Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT, trang 152 - 159), ý thức có hai nguồn gốc là nguồn gốc tự nhiên và nguồn gốc xã hội. Trong đó, nguồn gốc tự nhiên (bộ óc người và thế giới khách quan) chỉ là điều kiện cần; còn nguồn gốc xã hội (bao gồm Lao động và Ngôn ngữ) mới là yếu tố quyết định trực tiếp nhất để chuyển biến bộ óc vượn thành bộ óc người và hình thành ý thức.",
+    "optionExplanations": {
+      "A": "SAI — Bộ óc con người và hệ thần kinh trung ương thuộc về nguồn gốc tự nhiên (tiền đề sinh học vật chất), không phải là nguồn gốc xã hội.",
+      "B": "ĐÚNG — Thông qua lao động cải tạo tự nhiên, con người bộc lộ thuộc tính của sự vật và nảy sinh nhu cầu giao tiếp, dẫn tới sự ra đời của ngôn ngữ ('vỏ vật chất của tư duy'). Đây là nguồn gốc xã hội quyết định trực tiếp sự hình thành ý thức.",
+      "C": "SAI — Thế giới khách quan tác động lên giác quan tạo ra sự phản ánh tâm lý mới chỉ thuộc về nguồn gốc tự nhiên của ý thức.",
+      "D": "SAI — Đây là quan điểm của Chủ nghĩa duy tâm khách quan (như Hegel, Plato), hoàn toàn đối lập với Chủ nghĩa duy vật biện chứng."
+    }
+  },
+  {
+    "id": "q_ch2_02",
+    "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+    "topic": "Ba quy luật cơ bản của phép biện chứng duy vật",
+    "difficulty": "Vận dụng cao",
+    "question": "Một sinh viên chưa tích lũy đủ kiến thức nền tảng của môn học nhưng đã nôn nóng muốn làm ngay đề thi tổng hợp nâng cao dẫn đến kết quả thất bại. Dưới góc độ Quy luật chuyển hóa từ những sự thay đổi về lượng dẫn đến những sự thay đổi về chất và ngược lại, sai lầm này là biểu hiện của khuynh hướng nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khuynh hướng 'hữu khuynh' — bảo thủ, trì trệ, không dám thực hiện bước nhảy dù đã tích lũy đủ về lượng."
+      },
+      {
+        "key": "B",
+        "text": "Khuynh hướng 'tả khuynh' — chủ quan, nóng vội, muốn thực hiện bước nhảy về chất khi chưa tích lũy đủ về lượng tại điểm nút."
+      },
+      {
+        "key": "C",
+        "text": "Khuynh hướng 'chiết trung' — lắp ghép vô nguyên tắc các mặt đối lập mà không phân biệt đâu là mâu thuẫn cơ bản."
+      },
+      {
+        "key": "D",
+        "text": "Khuynh hướng 'phủ định sạch trơn' — bác bỏ hoàn toàn tri thức cũ mà không kế thừa những hạt nhân hợp lý."
+      }
+    ],
+    "correctAnswer": "B",
+    "generalExplanation": "Theo Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT, trang 245 - 246), mọi sự thay đổi về chất chỉ có thể diễn ra khi sự tích lũy về lượng đã đạt tới giới hạn Điểm nút. Trong hoạt động nhận thức và thực tiễn, việc bất chấp quy luật Lượng - Chất thường dẫn tới hai sai lầm cực đoan là 'tả khuynh' (nôn nóng đốt cháy giai đoạn) hoặc 'hữu khuynh' (bảo thủ, do dự).",
+    "optionExplanations": {
+      "A": "SAI — 'Hữu khuynh' là sai lầm ngược lại: khi lượng đã tích lũy đủ đến điểm nút nhưng vẫn e dè, không dám thực hiện bước nhảy để chuyển hóa về chất.",
+      "B": "ĐÚNG — 'Tả khuynh' là biểu hiện của bệnh chủ quan, duy ý chí, nôn nóng muốn có ngay sự biến đổi về chất (đạt điểm cao ở đề nâng cao) khi chưa kiên trì tích lũy đủ về lượng (kiến thức cơ bản từng chương).",
+      "C": "SAI — Thuyết chiết trung là sai lầm khi vận dụng nguyên tắc toàn diện (Nguyên lý về mối liên hệ phổ biến), không phải nội dung của quy luật Lượng - Chất.",
+      "D": "SAI — 'Phủ định sạch trơn' (phủ định siêu hình) là sai lầm khi vi phạm Quy luật phủ định của phủ định."
+    }
+  }
+]

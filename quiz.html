@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phòng Luyện Tập Tư Duy | E-Learning Triết Học Mác - Lênin</title>
+  <!-- Google Fonts: Merriweather (Học thuật) & Be Vietnam Pro (Hiện đại) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Dùng chung hệ thống thiết kế từ style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar-academic">
+    <div class="container topbar-inner">
+      <span class="topbar-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+        Học phần Lý luận Chính trị • Phòng Luyện Tập Tư Duy (quiz.html)
+      </span>
+      <div class="topbar-meta">
+        <span>Nguồn dữ liệu: <strong>data.json (Fetch API)</strong></span>
+        <span>•</span>
+        <span>Module: <strong>quiz.js</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-emblem" aria-hidden="true">Φ</div>
+        <div class="brand-text">
+          <span class="brand-title">Triết Học Mác - Lênin</span>
+          <span class="brand-subtitle">Phòng Luyện Tập Tư Duy &amp; Tự Đánh Giá</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" style="display: flex; position: static; flex-direction: row; border: none; box-shadow: none; padding: 0;">
+        <a href="index.html" class="nav-link">← Quay lại Trang chủ &amp; Học liệu</a>
+        <a href="#luyen-tap" class="nav-link active">Phòng luyện tập tư duy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         PHẦN 3: PHÒNG LUYỆN TẬP TƯ DUY (TRẮC NGHIỆM TRIẾT HỌC - quiz.html)
+         ==================================================================== -->
+    <section id="luyen-tap" class="quiz-section">
+      <div class="container">
+        <div class="quiz-scoreboard-banner">
+          <div class="quiz-scoreboard-info">
+            <span class="academic-badge">Phòng Luyện Tập Tư Duy • Fetch API &amp; JSON</span>
+            <h2>Trắc nghiệm Vận dụng Triết học Mác - Lênin</h2>
+            <p>
+              Chọn phương án trả lời và ấn <strong>"Kiểm tra"</strong>. Hệ thống sẽ hiển thị màu <strong>Xanh (Đúng)</strong>, <strong>Đỏ (Sai)</strong> và bung lời giải thích học thuật chi tiết cho từng phương án.
+            </p>
+          </div>
+
+          <div class="quiz-stats-pills">
+            <div class="quiz-stat-box">
+              <span class="quiz-stat-label">Ngân hàng mẫu</span>
+              <span class="quiz-stat-number" id="quiz-stat-total">2 câu</span>
+            </div>
+            <div class="quiz-stat-box">
+              <span class="quiz-stat-label">Đã kiểm tra</span>
+              <span class="quiz-stat-number" id="quiz-stat-answered">0/2 câu</span>
+            </div>
+            <div class="quiz-stat-box">
+              <span class="quiz-stat-label">Số câu đúng</span>
+              <span class="quiz-stat-number" id="quiz-stat-correct">0/2 đúng</span>
+            </div>
+            <button type="button" class="btn btn-outline-light btn-sm" id="reset-all-quiz-btn">
+              ↻ Làm lại từ đầu
+            </button>
+          </div>
+        </div>
+
+        <!-- Vùng chứa danh sách câu hỏi được render động từ data.json qua quiz.js -->
+        <div class="quiz-questions-list" id="quiz-questions-container" aria-live="polite"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding-top: 0;">
+        <span>© 2026 Dự án E-Learning Triết học Mác - Lênin • Trang Phòng Luyện Tập Tư Duy (quiz.html)</span>
+        <span>Tích hợp Fetch API đọc data.json &amp; Giải thích chi tiết Đúng/Sai</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Thẻ chờ nhúng Coze Web SDK -->
+  <div id="ai-chat-container"></div>
+
+  <!-- Nhúng file logic trắc nghiệm quiz.js -->
+  <script src="quiz.js"></script>
+</body>
+</html>
