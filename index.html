@@ -207,23 +207,8 @@
 
   <!-- Logic Firebase Authentication: Đăng nhập Google & Chuyển hướng sang dashboard.html -->
   <script type="module">
-    import { initializeApp, getApps, getApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
-    import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-
-    // 1. Điền bộ thông số cấu hình Firebase Project của bạn vào đây
-    const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_PROJECT_ID.appspot.com",
-      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-      appId: "YOUR_APP_ID"
-    };
-
-    const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
-    const auth = getAuth(app);
-    const googleProvider = new GoogleAuthProvider();
-    googleProvider.setCustomParameters({ prompt: "select_account" });
+    import { signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+    import { auth, googleProvider } from "./firebase-config.js";
 
     const loginBtn = document.getElementById("btn-google-login");
     const loginBtnText = document.getElementById("btn-google-login-text");
@@ -234,14 +219,14 @@
       statusBox.className = "login-status-msg " + type;
     }
 
-    // 2. Nếu người dùng đã có phiên đăng nhập từ trước, tự động chuyển thẳng sang dashboard.html
+    // 1. Nếu người dùng đã có phiên đăng nhập từ trước, tự động chuyển thẳng sang dashboard.html
     onAuthStateChanged(auth, (user) => {
       if (user) {
         window.location.href = "dashboard.html";
       }
     });
 
-    // 3. Sự kiện bấm nút "Đăng nhập bằng Google" -> Mở Pop-up -> Thành công thì chuyển sang dashboard.html
+    // 2. Sự kiện bấm nút "Đăng nhập bằng Google" -> Mở Pop-up -> Thành công thì chuyển sang dashboard.html
     loginBtn.addEventListener("click", async () => {
       try {
         loginBtn.disabled = true;
