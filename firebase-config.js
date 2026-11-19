@@ -17,12 +17,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.14.1/firebas
  * Copy các thông số trong firebaseConfig của bạn và dán vào các chuỗi bên dưới.
  */
 export const firebaseConfig = {
-  apiKey: "AIzaSyA-IhadWZAhTPmivheeKErl2Uq6eKJP6hE",             // Điền apiKey của bạn (VD: "AIzaSyD...")
-  authDomain: "luu-diem-triet-hoc.firebaseapp.com",         // Điền authDomain (VD: "triet-hoc-elearning.firebaseapp.com")
-  projectId: "luu-diem-triet-hoc",          // Điền projectId (VD: "triet-hoc-elearning")
-  storageBucket: "luu-diem-triet-hoc.firebasestorage.app",      // Điền storageBucket (VD: "triet-hoc-elearning.appspot.com")
-  messagingSenderId: "208824884586",  // Điền messagingSenderId (VD: "123456789012")
-  appId: "1:208824884586:web:1421168c90bafb57dcd913"               // Điền appId (VD: "1:123456789012:web:abcdef123456")
+  apiKey: "",             // Điền apiKey của bạn (VD: "AIzaSyD...")
+  authDomain: "",         // Điền authDomain (VD: "triet-hoc-elearning.firebaseapp.com")
+  projectId: "",          // Điền projectId (VD: "triet-hoc-elearning")
+  storageBucket: "",      // Điền storageBucket (VD: "triet-hoc-elearning.appspot.com")
+  messagingSenderId: "",  // Điền messagingSenderId (VD: "123456789012")
+  appId: ""               // Điền appId (VD: "1:123456789012:web:abcdef123456")
 };
 
 /**

@@ -1,0 +1,26 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Hàm kiểm tra người dùng đã đăng nhập hợp lệ và đúng là chủ sở hữu của {uid}
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    // 1. Bảo vệ hồ sơ cá nhân của sinh viên: users/{uid}
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+
+      // 2. Bảo vệ tiến độ tự học từng chương: users/{uid}/progress/{chapter_id}
+      match /progress/{chapter_id} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+
+    // 3. Khóa toàn bộ các đường dẫn khác không nằm trong thiết kế
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
