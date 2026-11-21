@@ -1751,3 +1751,845 @@ ul {
   .edtech-main-canvas { padding: 1rem 1rem 2.25rem; }
   .summary-article { padding: 20px 18px; }
 }
+
+
+/* ==========================================================================
+   8. NÂNG CẤP MỤC 3 ("PHÒNG LUYỆN TẬP"): 3 CHẾ ĐỘ, FLASHCARDS 3D & THI THỬ 45 PHÚT
+   ========================================================================== */
+
+/* Thanh chuyển đổi 3 chế độ ở đầu khu vực luyện tập */
+.practice-modes-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 0.45rem;
+  margin-bottom: 1.25rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.practice-mode-tab-btn {
+  flex: 1;
+  min-width: 190px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  background-color: transparent;
+  transition: all var(--transition);
+}
+
+.practice-mode-tab-btn:hover {
+  background-color: #F1F5F9;
+  color: var(--text-main);
+}
+
+.practice-mode-tab-btn.active {
+  background-color: var(--bg-active-nav);
+  color: var(--color-primary-active);
+  box-shadow: var(--shadow-xs);
+}
+
+.practice-mode-pane {
+  display: none;
+}
+
+.practice-mode-pane.is-active {
+  display: block;
+  animation: fadeInView 0.2s ease-out;
+}
+
+/* --- TÍNH NĂNG 1: THẺ GHI NHỚ (FLASHCARDS 3D) --- */
+.flashcards-toolbar-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.15rem 1.35rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.flashcards-filters-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.flashcards-filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.flashcards-progress-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.flashcards-progress-label {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.flashcards-stage-wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.flashcard-scene {
+  width: 100%;
+  min-height: 360px;
+  perspective: 1200px;
+  cursor: pointer;
+  margin-bottom: 1.1rem;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 360px;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-height: 360px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background-color: #FFFFFF;
+  border: 1.5px solid var(--border-color);
+  border-radius: 20px;
+  padding: 2rem 2.25rem;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flashcard-face-front {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1.15rem;
+}
+
+.flashcard-face-back {
+  transform: rotateY(180deg);
+  background-color: #FFFFFF;
+  border-color: #BFDBFE;
+  overflow-y: auto;
+  gap: 1rem;
+}
+
+.flashcard-front-title {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1.35;
+  max-width: 600px;
+}
+
+.flashcard-flip-hint {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background-color: var(--bg-active-nav);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+}
+
+.flashcard-back-section {
+  background-color: #F8FAFC;
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--color-primary-active);
+  border-radius: 12px;
+  padding: 0.95rem 1.15rem;
+  text-align: left;
+}
+
+.flashcard-back-section.is-methodology {
+  background-color: #FFFBEB;
+  border-color: #FDE68A;
+  border-left-color: var(--color-gold);
+}
+
+.flashcard-back-label {
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-active);
+  margin-bottom: 0.35rem;
+}
+
+.flashcard-back-section.is-methodology .flashcard-back-label {
+  color: #B45309;
+}
+
+.flashcard-back-text {
+  font-size: 0.93rem;
+  line-height: 1.65;
+  color: var(--text-main);
+}
+
+.flashcard-controls-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 0.85rem;
+}
+
+.flashcard-self-assess-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.flashcard-status-pill {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+}
+
+.flashcard-status-pill.is-mastered {
+  background-color: var(--color-success-soft);
+  color: var(--color-success);
+}
+
+.flashcard-status-pill.is-review {
+  background-color: var(--color-gold-soft);
+  color: #B45309;
+}
+
+/* --- TÍNH NĂNG 2: CHẾ ĐỘ THI THỬ TỔNG HỢP (MOCK EXAM 45 PHÚT) --- */
+.mock-exam-setup-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.mock-exam-config-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.mock-config-option {
+  background-color: #F8FAFC;
+  border: 2px solid var(--border-color);
+  border-radius: 14px;
+  padding: 1.25rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.mock-config-option:hover {
+  border-color: var(--color-primary-active);
+  background-color: var(--bg-active-nav);
+}
+
+.mock-config-option.is-selected {
+  border-color: var(--color-primary-active);
+  background-color: var(--bg-active-nav);
+  box-shadow: var(--shadow-sm);
+}
+
+.mock-exam-sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #FFFFFF;
+  border: 1.5px solid var(--border-pathway);
+  border-radius: 14px;
+  padding: 0.85rem 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  box-shadow: var(--shadow-md);
+}
+
+.mock-timer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  border-radius: 10px;
+  background-color: var(--bg-active-nav);
+  color: var(--color-primary);
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.mock-timer-badge.is-danger {
+  background-color: var(--color-danger-soft);
+  color: var(--color-danger);
+  border: 1px solid #FCA5A5;
+  animation: pulseTimer 1s infinite;
+}
+
+@keyframes pulseTimer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.72; }
+}
+
+.mock-exam-layout {
+  display: grid;
+  grid-template-columns: 1fr 270px;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.mock-palette-card {
+  position: sticky;
+  top: 84px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.1rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.mock-palette-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+  margin: 0.85rem 0;
+}
+
+.mock-palette-btn {
+  height: 36px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-color);
+  background-color: #F8FAFC;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.mock-palette-btn:hover {
+  border-color: var(--color-primary-active);
+}
+
+.mock-palette-btn.is-answered {
+  background-color: var(--color-primary-active);
+  border-color: var(--color-primary-active);
+  color: #FFFFFF;
+}
+
+.mock-palette-btn.is-current {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+  border-color: var(--color-primary);
+}
+
+.mock-palette-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.mock-result-summary-banner {
+  background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%);
+  color: #FFFFFF;
+  border-radius: 18px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.mock-result-score-big {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #FDE68A;
+  line-height: 1.1;
+}
+
+.mock-history-box {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  text-align: left;
+}
+
+.mock-history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  background-color: #F8FAFC;
+  border: 1px solid var(--border-color);
+  font-size: 0.83rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .mock-exam-layout {
+    grid-template-columns: 1fr;
+  }
+  .mock-palette-card {
+    position: static;
+  }
+  .mock-exam-config-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .flashcard-face {
+    padding: 1.35rem 1.2rem;
+  }
+  .flashcard-front-title {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* ==========================================================================
+   9. TÍNH NĂNG 3 (CÂU HAY LÀM SAI) & TÍNH NĂNG 4 (RESUME READING + GHI CHÚ CÁ NHÂN)
+   ========================================================================== */
+
+/* Nút lọc Câu hay làm sai trên thanh lọc Phòng luyện tập */
+.btn-mistakes-filter {
+  background-color: #FEF2F2;
+  color: #B91C1C;
+  border: 1.5px solid #FECACA;
+}
+
+.btn-mistakes-filter:hover:not(:disabled) {
+  background-color: #FEE2E2;
+  border-color: #F87171;
+}
+
+.btn-mistakes-filter.is-active-mistakes {
+  background-color: #DC2626;
+  color: #FFFFFF;
+  border-color: #DC2626;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.25);
+}
+
+/* Thẻ Tiếp tục đọc dở (Resume Reading) ngay dưới lời chào ở Tab 1 Tổng quan */
+.resume-reading-banner {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+  border: 1.5px solid #C7D2FE;
+  border-left: 5px solid var(--color-primary-active);
+  border-radius: 16px;
+  padding: 1rem 1.35rem;
+  margin-bottom: 1.4rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.resume-reading-banner.is-visible {
+  display: flex;
+}
+
+.resume-reading-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.resume-reading-kicker {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary-active);
+}
+
+.resume-reading-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1.2rem;
+  border-radius: 12px;
+  background-color: var(--color-primary-active);
+  color: #FFFFFF;
+  font-size: 0.88rem;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.25);
+  transition: all var(--transition);
+  text-align: left;
+}
+
+.resume-reading-btn:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-1px);
+}
+
+/* Khung Ghi chú cá nhân (Personal Notes) ở Tab 2 Không gian học liệu */
+.personal-notes-card {
+  margin-top: 1.35rem;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-top: 4px solid var(--color-primary-active);
+  border-radius: 16px;
+  padding: 1.25rem 1.45rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.personal-notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.personal-notes-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.personal-notes-textarea {
+  width: 100%;
+  min-height: 125px;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1.5px solid var(--border-strong);
+  background-color: #F8FAFC;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-main);
+  resize: vertical;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+
+.personal-notes-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary-active);
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.personal-notes-footer {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.personal-notes-status {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.personal-notes-status.is-saved {
+  color: var(--color-success);
+}
+
+.personal-notes-status.is-saving {
+  color: var(--color-primary-active);
+}
+
+
+/* ==========================================================================
+   10. TÍNH NĂNG 5 (INSTANT SEARCH TRÊN HEADER) & TÍNH NĂNG 6 (STUDY STREAK)
+   ========================================================================== */
+
+/* Thanh tìm kiếm nhanh trên Header */
+.header-search-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 410px;
+  min-width: 200px;
+}
+
+.header-search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 38px;
+  padding: 0 0.85rem;
+  border-radius: 10px;
+  border: 1.5px solid var(--border-color);
+  background-color: #F8FAFC;
+  transition: all var(--transition);
+}
+
+.header-search-box:focus-within {
+  border-color: var(--color-primary-active);
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.header-search-icon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.header-search-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 0.84rem;
+  color: var(--text-main);
+  outline: none;
+}
+
+.header-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.header-search-clear-btn {
+  display: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+}
+
+.header-search-clear-btn.is-visible {
+  display: inline-flex;
+}
+
+.header-search-clear-btn:hover {
+  background-color: #E2E8F0;
+  color: var(--text-main);
+}
+
+/* Dropdown kết quả tìm kiếm 3 nhóm */
+.global-search-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  min-width: 340px;
+  max-height: 440px;
+  overflow-y: auto;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  z-index: 1200;
+  padding: 0.5rem;
+}
+
+.global-search-dropdown.is-open {
+  display: block;
+  animation: fadeInView 0.15s ease-out;
+}
+
+.search-group-header {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary-active);
+  background-color: #F8FAFC;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  margin: 0.35rem 0 0.25rem;
+}
+
+.search-group-header:first-child {
+  margin-top: 0;
+}
+
+.search-result-item {
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  transition: background-color var(--transition);
+}
+
+.search-result-item:hover {
+  background-color: var(--bg-active-nav);
+}
+
+.search-result-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.35;
+}
+
+.search-result-sub {
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-empty-msg {
+  padding: 1.25rem 0.75rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Hiệu ứng nhấn mạnh câu hỏi khi nhảy từ thanh tìm kiếm */
+.quiz-card.is-search-highlight {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+  border-color: var(--color-primary-active);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Thẻ Chuỗi ngày tự học (Study Streak) & Mục tiêu mỗi ngày ở Tab 1 Tổng quan */
+.study-streak-card {
+  background: linear-gradient(135deg, #FFF7ED 0%, #FEF3C7 100%);
+  border: 1.5px solid #FED7AA;
+  border-left: 5px solid var(--color-accent);
+  border-radius: 16px;
+  padding: 1.05rem 1.35rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.study-streak-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.study-streak-headline {
+  font-size: 0.96rem;
+  font-weight: 800;
+  color: #9A3412;
+  line-height: 1.4;
+}
+
+.study-streak-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  color: #C2410C;
+  border: 1px solid #FDBA74;
+}
+
+.study-streak-badge.is-goal-met {
+  background-color: var(--color-success-soft);
+  color: var(--color-success);
+  border-color: #86EFAC;
+}
+
+.study-streak-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.study-streak-progress-track {
+  flex: 1;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #FDBA74;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.study-streak-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #F97316, #EA580C);
+  border-radius: 999px;
+  transition: width 0.35s ease;
+}
+
+.study-streak-progress-pct {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #9A3412;
+  min-width: 38px;
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .header-date-display {
+    display: none;
+  }
+  .header-search-wrapper {
+    max-width: none;
+    min-width: 150px;
+  }
+  .global-search-dropdown {
+    min-width: 280px;
+  }
+}

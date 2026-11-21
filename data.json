@@ -123,6 +123,510 @@
   },
   "questions": [
     {
+      "id": "q_ch1_01",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Nguồn gốc ra đời của Triết học",
+      "difficulty": "Nhận biết & Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Triết học ra đời vào khoảng thời gian nào và dựa trên hai nguồn gốc cơ bản nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thế kỷ VIII – VI TCN; dựa trên nguồn gốc nhận thức và nguồn gốc xã hội."
+        },
+        {
+          "key": "B",
+          "text": "Thế kỷ XV – XVI; dựa trên nguồn gốc tôn giáo và nguồn gốc khoa học thực nghiệm."
+        },
+        {
+          "key": "C",
+          "text": "Thế kỷ XIX; dựa trên nguồn gốc kinh tế tư bản chủ nghĩa và phong trào công nhân."
+        },
+        {
+          "key": "D",
+          "text": "Thời kỳ công xã nguyên thủy; dựa trên nhu cầu săn bắt và hái lượm của con người."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Theo Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT, trang 12 – 18), triết học ra đời vào khoảng thế kỷ VIII đến thế kỷ VI TCN tại các trung tâm văn minh cổ đại (Ấn Độ, Trung Hoa, Hy Lạp) khi hội tụ đủ hai nguồn gốc: nguồn gốc nhận thức (tư duy trừu tượng phát triển) và nguồn gốc xã hội (phân công lao động trí óc – chân tay và xã hội có giai cấp).",
+      "optionExplanations": {
+        "A": "ĐÚNG — Đây là mốc thời gian lịch sử và hai nguồn gốc khách quan trực tiếp dẫn đến sự ra đời của triết học.",
+        "B": "SAI — Thế kỷ XV – XVI là thời kỳ Phục hưng ở châu Âu, không phải thời điểm triết học mới ra đời.",
+        "C": "SAI — Thế kỷ XIX là mốc ra đời của Triết học Mác, không phải sự ra đời của triết học nói chung.",
+        "D": "SAI — Trong xã hội công xã nguyên thủy chưa có sự phân công lao động trí óc tách khỏi lao động chân tay và tư duy trừu tượng chưa đủ trình độ khái quát thành triết học."
+      }
+    },
+    {
+      "id": "q_ch1_02",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Vấn đề cơ bản của Triết học",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo Ph. Ăngghen, vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mối quan hệ giữa cá nhân con người với cộng đồng xã hội."
+        },
+        {
+          "key": "B",
+          "text": "Mối quan hệ giữa tư duy với tồn tại (giữa ý thức với vật chất)."
+        },
+        {
+          "key": "C",
+          "text": "Mối quan hệ giữa tăng trưởng kinh tế với bảo vệ môi trường tự nhiên."
+        },
+        {
+          "key": "D",
+          "text": "Mối quan hệ giữa khoa học tự nhiên với các học thuyết tôn giáo."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Trong tác phẩm 'Lút-vích Phơ-bách và sự cáo chung của triết học cổ điển Đức', Ph. Ăngghen khẳng định vấn đề cơ bản lớn của mọi triết học là vấn đề quan hệ giữa tư duy với tồn tại (giữa tinh thần với giới tự nhiên, giữa ý thức với vật chất).",
+      "optionExplanations": {
+        "A": "SAI — Đây là một vấn đề quan trọng của triết học xã hội và đạo đức học, không phải vấn đề cơ bản lớn nhất của mọi triết học.",
+        "B": "ĐÚNG — Giải quyết mối quan hệ giữa tư duy và tồn tại là cơ sở phân định các trường phái triết học cơ bản trong lịch sử.",
+        "C": "SAI — Đây là vấn đề phát triển bền vững hiện đại, thuộc phạm vi hẹp hơn.",
+        "D": "SAI — Không bao quát toàn bộ đối tượng của bản thể luận và nhận thức luận triết học."
+      }
+    },
+    {
+      "id": "q_ch1_03",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Bản thể luận: Duy vật và Duy tâm",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Tiêu chuẩn trực tiếp để phân định một nhà triết học thuộc trường phái Chủ nghĩa duy vật hay Chủ nghĩa duy tâm là cách giải quyết mặt nào của vấn đề cơ bản của triết học?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mặt thứ hai (Nhận thức luận): Con người có khả năng nhận thức được thế giới hay không."
+        },
+        {
+          "key": "B",
+          "text": "Mặt thứ nhất (Bản thể luận): Giữa vật chất và ý thức, cái nào có trước, cái nào có sau, cái nào quyết định cái nào."
+        },
+        {
+          "key": "C",
+          "text": "Phương pháp nghiên cứu sử dụng toán học hay lịch sử."
+        },
+        {
+          "key": "D",
+          "text": "Thái độ chính trị ủng hộ hay phản đối chế độ phong kiến."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Mặt thứ nhất (mặt bản thể luận) của vấn đề cơ bản của triết học trực tiếp chia các nhà triết học thành hai trường phái lớn đối lập nhau: Chủ nghĩa duy vật (vật chất có trước, quyết định ý thức) và Chủ nghĩa duy tâm (ý thức có trước, quyết định vật chất).",
+      "optionExplanations": {
+        "A": "SAI — Mặt thứ hai phân chia các nhà triết học thành Khả tri luận và Bất khả tri luận.",
+        "B": "ĐÚNG — Cách trả lời mặt thứ nhất quyết định lập trường thế giới quan duy vật hay duy tâm.",
+        "C": "SAI — Đây là phương pháp khoa học cụ thể, không phải tiêu chuẩn phân định thế giới quan triết học.",
+        "D": "SAI — Lập trường chính trị có liên hệ nhưng không phải tiêu chuẩn lý luận trực tiếp phân định duy vật – duy tâm."
+      }
+    },
+    {
+      "id": "q_ch1_04",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Các hình thức lịch sử của Chủ nghĩa duy vật",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Hình thức phát triển cao nhất, khắc phục được hạn chế trực quan cổ đại và hạn chế máy móc siêu hình của Chủ nghĩa duy vật trong lịch sử là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chủ nghĩa duy vật chất phác thời cổ đại."
+        },
+        {
+          "key": "B",
+          "text": "Chủ nghĩa duy vật siêu hình thế kỷ XVII – XVIII."
+        },
+        {
+          "key": "C",
+          "text": "Chủ nghĩa duy vật biện chứng do C. Mác, Ph. Ăngghen sáng lập và V.I. Lênin phát triển."
+        },
+        {
+          "key": "D",
+          "text": "Chủ nghĩa duy tâm khách quan trong triết học cổ điển Đức."
+        }
+      ],
+      "correctAnswer": "C",
+      "generalExplanation": "Chủ nghĩa duy vật trải qua 3 hình thức cơ bản: Duy vật chất phác (cổ đại), Duy vật siêu hình (thế kỷ XVII – XVIII) và Chủ nghĩa duy vật biện chứng (từ những năm 40 thế kỷ XIX) — hình thức phát triển cao nhất kết hợp chặt chẽ thế giới quan duy vật với phép biện chứng khoa học.",
+      "optionExplanations": {
+        "A": "SAI — Duy vật chất phác còn mang tính trực quan, ngây thơ, đồng nhất vật chất với một vài dạng vật thể cụ thể (nước, lửa, không khí...).",
+        "B": "SAI — Duy vật siêu hình chịu ảnh hưởng của cơ học cổ điển, xem xét thế giới như cỗ máy cô lập, tĩnh tại.",
+        "C": "ĐÚNG — Chủ nghĩa duy vật biện chứng là đỉnh cao của chủ nghĩa duy vật, vừa phản ánh đúng hiện thực khách quan vừa là công cụ cải tạo thế giới.",
+        "D": "SAI — Đây là trường phái duy tâm, đối lập với chủ nghĩa duy vật."
+      }
+    },
+    {
+      "id": "q_ch1_05",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Phương pháp Biện chứng và Siêu hình",
+      "difficulty": "Thông hiểu & Vận dụng",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Đặc trưng cốt lõi giúp phân biệt Phương pháp tư duy biện chứng với Phương pháp tư duy siêu hình là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phương pháp biện chứng xem xét sự vật trong trạng thái cô lập, bất biến, không có mâu thuẫn bên trong."
+        },
+        {
+          "key": "B",
+          "text": "Phương pháp biện chứng xem xét sự vật trong các mối liên hệ phổ biến và trong sự vận động, biến đổi, phát triển không ngừng cả về lượng và chất."
+        },
+        {
+          "key": "C",
+          "text": "Phương pháp biện chứng phủ nhận hoàn toàn vai trò của khoa học tự nhiên."
+        },
+        {
+          "key": "D",
+          "text": "Phương pháp siêu hình thừa nhận mọi sự phát triển đều bắt nguồn từ mâu thuẫn nội tại của sự vật."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Phương pháp siêu hình xem xét đối tượng tách rời, tĩnh tại, nếu có biến đổi chỉ là tăng giảm thuần túy về lượng do nguyên nhân bên ngoài; ngược lại, phương pháp biện chứng đặt đối tượng trong mối liên hệ phổ biến, vận động và tự thân phát triển thông qua giải quyết mâu thuẫn nội tại.",
+      "optionExplanations": {
+        "A": "SAI — Mô tả này thuộc về phương pháp siêu hình, không phải phương pháp biện chứng.",
+        "B": "ĐÚNG — Đây chính là bản chất của tư duy biện chứng khoa học.",
+        "C": "SAI — Phép biện chứng duy vật luôn dựa trên và khái quát thành tựu của khoa học tự nhiên.",
+        "D": "SAI — Thừa nhận mâu thuẫn nội tại là nguồn gốc phát triển thuộc về phép biện chứng, không phải siêu hình."
+      }
+    },
+    {
+      "id": "q_ch1_06",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Tiền đề ra đời của Triết học Mác",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Ba phát minh vĩ đại của khoa học tự nhiên thế kỷ XIX đóng vai trò là tiền đề khoa học trực tiếp cho sự ra đời của Triết học Mác là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thuyết tương đối, Cơ học lượng tử và Cấu trúc xoắn kép ADN."
+        },
+        {
+          "key": "B",
+          "text": "Định luật vạn vật hấp dẫn, Hệ nhật tâm và Hình học phi Euclid."
+        },
+        {
+          "key": "C",
+          "text": "Định luật bảo toàn và chuyển hóa năng lượng, Học thuyết tế bào và Học thuyết tiến hóa của Darwin."
+        },
+        {
+          "key": "D",
+          "text": "Động cơ hơi nước, Máy dệt chạy điện và Công nghệ thông tin."
+        }
+      ],
+      "correctAnswer": "C",
+      "generalExplanation": "Ba phát minh lớn của khoa học tự nhiên nửa đầu thế kỷ XIX (Định luật bảo toàn và chuyển hóa năng lượng, Học thuyết tế bào, Học thuyết tiến hóa) đã chứng minh tính thống nhất vật chất, mối liên hệ phổ biến và sự phát triển biện chứng của giới tự nhiên, giáng đòn mạnh vào tư duy siêu hình.",
+      "optionExplanations": {
+        "A": "SAI — Đây là những thành tựu khoa học nổi bật của thế kỷ XX, sau khi Triết học Mác đã ra đời.",
+        "B": "SAI — Đây là các phát minh thuộc thời kỳ Phục hưng và cận đại thế kỷ XVI – XVII.",
+        "C": "ĐÚNG — Chính 3 phát minh này là cơ sở khoa học tự nhiên trực tiếp cho sự hình thành chủ nghĩa duy vật biện chứng.",
+        "D": "SAI — Đây là các thành tựu kỹ thuật – công nghệ, không phải 3 học thuyết khoa học tự nhiên nền tảng thế kỷ XIX."
+      }
+    },
+    {
+      "id": "q_ch1_07",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Chức năng của Triết học Mác - Lênin",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Hai chức năng cơ bản nhất của Triết học Mác - Lênin đối với nhận thức khoa học và đời sống xã hội là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chức năng sản xuất vật chất và chức năng phân phối của cải."
+        },
+        {
+          "key": "B",
+          "text": "Chức năng thế giới quan và chức năng phương pháp luận."
+        },
+        {
+          "key": "C",
+          "text": "Chức năng quản lý hành chính và chức năng lập pháp."
+        },
+        {
+          "key": "D",
+          "text": "Chức năng thay thế hoàn toàn mọi ngành khoa học chuyên ngành."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Triết học Mác - Lênin thực hiện hai chức năng cơ bản thống nhất hữu cơ với nhau là chức năng thế giới quan (định hướng nhận thức đúng đắn thế giới và nhân sinh quan) và chức năng phương pháp luận (trang bị hệ thống nguyên tắc phương pháp luận chung nhất cho nhận thức và thực tiễn).",
+      "optionExplanations": {
+        "A": "SAI — Đây là chức năng của hoạt động kinh tế, không phải chức năng của triết học.",
+        "B": "ĐÚNG — Thế giới quan duy vật biện chứng và phương pháp luận biện chứng duy vật là hai chức năng cốt lõi của Triết học Mác - Lênin.",
+        "C": "SAI — Đây là chức năng của bộ máy Nhà nước.",
+        "D": "SAI — Triết học Mác - Lênin không tự coi mình là 'khoa học của mọi khoa học' để thay thế các khoa học cụ thể."
+      }
+    },
+    {
+      "id": "q_ch1_08",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Bản thể luận: Duy tâm chủ quan & khách quan",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Điểm khác biệt cơ bản giữa Chủ nghĩa duy tâm chủ quan và Chủ nghĩa duy tâm khách quan là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Duy tâm chủ quan thừa nhận vật chất có trước; duy tâm khách quan thừa nhận ý thức có trước."
+        },
+        {
+          "key": "B",
+          "text": "Duy tâm chủ quan tuyệt đối hóa cảm giác, ý thức cá nhân; duy tâm khách quan coi 'ý niệm tuyệt đối' hay 'tinh thần thế giới' tồn tại khách quan bên ngoài con người."
+        },
+        {
+          "key": "C",
+          "text": "Duy tâm chủ quan chỉ tồn tại ở phương Đông; duy tâm khách quan chỉ tồn tại ở phương Tây."
+        },
+        {
+          "key": "D",
+          "text": "Duy tâm chủ quan dựa trên khoa học thực nghiệm; duy tâm khách quan dựa trên toán học."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Cả hai phái duy tâm đều coi ý thức/tinh thần có trước vật chất, nhưng Duy tâm chủ quan (Berkeley, Hume) đồng nhất sự vật với phức hợp cảm giác cá nhân, còn Duy tâm khách quan (Plato, Hegel) coi lực lượng tinh thần khách quan ('Ý niệm tuyệt đối') sinh ra giới tự nhiên.",
+      "optionExplanations": {
+        "A": "SAI — Cả hai đều coi ý thức có trước vật chất.",
+        "B": "ĐÚNG — Đây là ranh giới lý luận giữa duy tâm chủ quan và duy tâm khách quan.",
+        "C": "SAI — Cả hai hình thức đều xuất hiện ở cả phương Đông và phương Tây.",
+        "D": "SAI — Không phải tiêu chuẩn phân biệt hai phái duy tâm."
+      }
+    },
+    {
+      "id": "q_ch1_09",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Thuyết khả tri và Bất khả tri",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Quan điểm triết học cho rằng con người chỉ có thể nhận thức được hiện tượng bề ngoài chứ không thể nhận thức được bản chất 'vật tự nó' thuộc trường phái nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khả tri luận (Thuyết có thể biết)."
+        },
+        {
+          "key": "B",
+          "text": "Bất khả tri luận (Thuyết không thể biết)."
+        },
+        {
+          "key": "C",
+          "text": "Chủ nghĩa duy vật biện chứng."
+        },
+        {
+          "key": "D",
+          "text": "Chủ nghĩa duy vật chất phác cổ đại."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Bất khả tri luận (tiêu biểu là D. Hume và I. Kant ở mặt hạn chế) phủ nhận khả năng con người nhận thức được bản chất khách quan của sự vật ('vật tự nó').",
+      "optionExplanations": {
+        "A": "SAI — Khả tri luận khẳng định con người có khả năng nhận thức được thế giới.",
+        "B": "ĐÚNG — Bất khả tri luận cho rằng con người không thể chạm tới bản chất 'vật tự nó'.",
+        "C": "SAI — Chủ nghĩa duy vật biện chứng là học thuyết khả tri triệt để.",
+        "D": "SAI — Duy vật chất phác cổ đại tin vào khả năng nhận thức tự nhiên."
+      }
+    },
+    {
+      "id": "q_ch1_10",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Thế giới quan và hạt nhân lý luận",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Yếu tố nào đóng vai trò là hạt nhân lý luận của thế giới quan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tâm lý xã hội thông thường."
+        },
+        {
+          "key": "B",
+          "text": "Triết học."
+        },
+        {
+          "key": "C",
+          "text": "Tín ngưỡng dân gian."
+        },
+        {
+          "key": "D",
+          "text": "Kinh nghiệm sản xuất cá nhân."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Triết học với tư cách là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới đó đóng vai trò là hạt nhân lý luận của thế giới quan.",
+      "optionExplanations": {
+        "A": "SAI — Tâm lý xã hội mang tính tự phát, chưa đạt tới hệ thống lý luận chung nhất.",
+        "B": "ĐÚNG — Triết học là hạt nhân lý luận chi phối toàn bộ thế giới quan.",
+        "C": "SAI — Tín ngưỡng mang tính niềm tin cảm tính.",
+        "D": "SAI — Kinh nghiệm cá nhân mang tính rời rạc, cụ thể."
+      }
+    },
+    {
+      "id": "q_ch1_11",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Nguồn gốc lý luận của Triết học Mác",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "C. Mác và Ph. Ăngghen đã kế thừa trực tiếp 'hạt nhân hợp lý' nào từ Triết học cổ điển Đức để xây dựng Chủ nghĩa duy vật biện chứng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phép biện chứng duy tâm của G.W.F. Hegel và chủ nghĩa duy vật nhân bản của L. Feuerbach."
+        },
+        {
+          "key": "B",
+          "text": "Thuyết nguyên tử của Democritus và logic hình thức của Aristotle."
+        },
+        {
+          "key": "C",
+          "text": "Thuyết bất khả tri của D. Hume và chủ nghĩa thực dụng Mỹ."
+        },
+        {
+          "key": "D",
+          "text": "Học thuyết ngũ hành của Trung Hoa cổ đại và Phật giáo Ấn Độ."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Triết học cổ điển Đức là nguồn gốc lý luận trực tiếp nhất của Triết học Mác: C. Mác và Ph. Ăngghen gạt bỏ vỏ duy tâm thần bí trong phép biện chứng của Hegel và khắc phục tính siêu hình trong chủ nghĩa duy vật của Feuerbach.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Kế thừa phép biện chứng của Hegel và chủ nghĩa duy vật của Feuerbach là bước ngoặt sáng tạo nên Chủ nghĩa duy vật biện chứng.",
+        "B": "SAI — Đây là các tư tưởng triết học Hy Lạp cổ đại.",
+        "C": "SAI — Không phải nguồn gốc lý luận trực tiếp của Triết học Mác.",
+        "D": "SAI — Thuộc triết học phương Đông cổ đại."
+      }
+    },
+    {
+      "id": "q_ch1_12",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Bước ngoặt cách mạng của Triết học Mác",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Phát minh lý luận vĩ đại nhất của C. Mác giúp khắc phục triệt để hạn chế duy tâm về lịch sử của các nhà duy vật trước Mác là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sáng tạo ra Chủ nghĩa duy vật lịch sử."
+        },
+        {
+          "key": "B",
+          "text": "Đưa ra khái niệm 'Ý niệm tuyệt đối'."
+        },
+        {
+          "key": "C",
+          "text": "Đồng nhất triết học với cơ học cổ điển."
+        },
+        {
+          "key": "D",
+          "text": "Phủ nhận hoàn toàn vai trò của ý thức cá nhân."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Trước Mác, các nhà duy vật (kể cả Feuerbach) đều 'duy vật ở dưới (tự nhiên) nhưng duy tâm ở trên (xã hội)'. Việc C. Mác sáng tạo ra Chủ nghĩa duy vật lịch sử đã tạo nên chủ nghĩa duy vật triệt để và hoàn bị.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Chủ nghĩa duy vật lịch sử là thành tựu vĩ đại nhất của tư tưởng khoa học thế kỷ XIX.",
+        "B": "SAI — 'Ý niệm tuyệt đối' là phạm trù của Hegel (duy tâm khách quan).",
+        "C": "SAI — Đây là hạn chế của chủ nghĩa duy vật siêu hình thế kỷ XVII – XVIII.",
+        "D": "SAI — Chủ nghĩa Mác đánh giá cao tính năng động sáng tạo của ý thức."
+      }
+    },
+    {
+      "id": "q_ch1_13",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Giai đoạn V.I. Lênin phát triển Triết học Mác",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Đóng góp nổi bật của V.I. Lênin đối với Triết học Mác trong điều kiện cuối thế kỷ XIX – đầu thế kỷ XX là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bác bỏ phép biện chứng của Mác để quay lại chủ nghĩa duy vật siêu hình."
+        },
+        {
+          "key": "B",
+          "text": "Tổng kết thành tựu khoa học tự nhiên mới, đưa ra định nghĩa kinh điển về Vật chất và phát triển lý luận cách mạng vô sản trong thời đại đế quốc chủ nghĩa."
+        },
+        {
+          "key": "C",
+          "text": "Thay thế Chủ nghĩa duy vật lịch sử bằng học thuyết tôn giáo."
+        },
+        {
+          "key": "D",
+          "text": "Tách rời lý luận triết học khỏi thực tiễn đấu tranh cách mạng."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "V.I. Lênin đã bảo vệ và phát triển toàn diện Triết học Mác trước cuộc khủng hoảng vật lý học hiện đại, đưa ra định nghĩa kinh điển về Vật chất và vận dụng sáng tạo vào thực tiễn Cách mạng Tháng Mười Nga.",
+      "optionExplanations": {
+        "A": "SAI — V.I. Lênin phát triển sâu sắc hơn nữa phép biện chứng duy vật.",
+        "B": "ĐÚNG — Đây là cống hiến cốt lõi tạo nên giai đoạn Lênin trong lịch sử Triết học Mác - Lênin.",
+        "C": "SAI — Trái ngược hoàn toàn với lập trường khoa học của V.I. Lênin.",
+        "D": "SAI — V.I. Lênin luôn nhấn mạnh sự thống nhất giữa lý luận và thực tiễn."
+      }
+    },
+    {
+      "id": "q_ch1_14",
+      "chapterId": "chuong_1",
+      "chapterTitle": "Triết học và vai trò của triết học trong đời sống xã hội",
+      "chapter": "Chương 1: Triết học và vai trò của triết học trong đời sống xã hội",
+      "topic": "Điều kiện kinh tế - xã hội ra đời Triết học Mác",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Lực lượng xã hội nào đã bước lên vũ đài lịch sử như một lực lượng chính trị độc lập vào những năm 40 của thế kỷ XIX, đặt ra nhu cầu khách quan cho sự ra đời của Triết học Mác?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giai cấp địa chủ phong kiến."
+        },
+        {
+          "key": "B",
+          "text": "Giai cấp vô sản (giai cấp công nhân hiện đại)."
+        },
+        {
+          "key": "C",
+          "text": "Tầng lớp tăng lữ trung cổ."
+        },
+        {
+          "key": "D",
+          "text": "Tầng lớp tiểu thương cổ đại."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Phong trào đấu tranh của giai cấp công nhân (khởi nghĩa Lyon ở Pháp, phong trào Hiến chương ở Anh, khởi nghĩa Silesia ở Đức) đòi hỏi một học thuyết triết học khoa học, cách mạng soi đường.",
+      "optionExplanations": {
+        "A": "SAI — Giai cấp địa chủ phong kiến đã suy tàn trước sự phát triển của chủ nghĩa tư bản.",
+        "B": "ĐÚNG — Giai cấp vô sản là cơ sở xã hội trực tiếp của Triết học Mác.",
+        "C": "SAI — Không phải lực lượng chính trị mới của thế kỷ XIX.",
+        "D": "SAI — Không phải giai cấp đại diện cho nền đại công nghiệp."
+      }
+    },
+    {
       "id": "q_ch2_01",
       "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
       "topic": "Vật chất và Ý thức",
@@ -193,6 +697,1144 @@
       "chapterId": "chuong_2",
       "chapterTitle": "Chủ nghĩa duy vật biện chứng",
       "slidePdfPath": "assets/slides/slide-triet-hoc.pdf"
+    },
+    {
+      "id": "q_ch2_03",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Định nghĩa Vật chất của V.I. Lênin",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo định nghĩa Vật chất của V.I. Lênin, thuộc tính cơ bản nhất, phổ biến nhất để phân biệt vật chất với ý thức là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Có khối lượng và trọng lượng đo được bằng cân cơ học."
+        },
+        {
+          "key": "B",
+          "text": "Thuộc tính tồn tại khách quan — tồn tại bên ngoài, độc lập và không phụ thuộc vào cảm giác, ý thức con người."
+        },
+        {
+          "key": "C",
+          "text": "Có thể nhìn thấy trực tiếp bằng mắt thường."
+        },
+        {
+          "key": "D",
+          "text": "Được cấu tạo từ các nguyên tử không thể phân chia."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "V.I. Lênin xác định thuộc tính duy nhất của vật chất mà chủ nghĩa duy vật triết học gắn liền với việc thừa nhận nó là thuộc tính tồn tại khách quan, tồn tại ngoài ý thức chúng ta.",
+      "optionExplanations": {
+        "A": "SAI — Nhiều dạng vật chất (như trường điện từ, ánh sáng) không có khối lượng nghỉ.",
+        "B": "ĐÚNG — Tồn tại khách quan là tiêu chuẩn triết học phổ quát của vật chất.",
+        "C": "SAI — Nhiều dạng vật chất vi mô hoặc trường vật lý không nhìn thấy bằng mắt thường.",
+        "D": "SAI — Nguyên tử hoàn toàn có thể phân chia thành các hạt hạ nguyên tử."
+      }
+    },
+    {
+      "id": "q_ch2_04",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Phương thức tồn tại của Vật chất",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo Chủ nghĩa duy vật biện chứng, phương thức tồn tại và thuộc tính cố hữu của vật chất là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đứng im tuyệt đối."
+        },
+        {
+          "key": "B",
+          "text": "Vận động."
+        },
+        {
+          "key": "C",
+          "text": "Cảm giác chủ quan."
+        },
+        {
+          "key": "D",
+          "text": "Khối lượng tĩnh."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Ph. Ăngghen khẳng định: Vận động, hiểu theo nghĩa chung nhất, là phương thức tồn tại của vật chất, là thuộc tính cố hữu của vật chất. Không có vật chất không vận động và không có vận động thuần túy ngoài vật chất.",
+      "optionExplanations": {
+        "A": "SAI — Đứng im chỉ mang tính tương đối, tạm thời trong một mối quan hệ nhất định.",
+        "B": "ĐÚNG — Vận động là phương thức tồn tại tất yếu và vĩnh viễn của vật chất.",
+        "C": "SAI — Cảm giác là hình thức phản ánh thuộc về ý thức.",
+        "D": "SAI — Khối lượng tĩnh chỉ là một đại lượng vật lý cụ thể."
+      }
+    },
+    {
+      "id": "q_ch2_05",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Bản chất và kết cấu của Ý thức",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong kết cấu theo chiều ngang của ý thức (tri thức, tình cảm, ý chí), yếu tố nào giữ vai trò quan trọng nhất, là phương thức tồn tại của ý thức?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tri thức."
+        },
+        {
+          "key": "B",
+          "text": "Tình cảm thuần túy."
+        },
+        {
+          "key": "C",
+          "text": "Bản năng sinh học."
+        },
+        {
+          "key": "D",
+          "text": "Ảo giác."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Tri thức là kết quả quá trình nhận thức của con người về thế giới hiện thực, là nhân tố cốt lõi và là phương thức tồn tại của ý thức; không có tri thức thì tình cảm và ý chí trở nên mù quáng.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Tri thức là hạt nhân, phương thức tồn tại cơ bản của ý thức.",
+        "B": "SAI — Tình cảm có vai trò động lực nhưng cần sự soi sáng của tri thức.",
+        "C": "SAI — Bản năng thuộc mặt sinh học tự nhiên, không phải ý thức xã hội.",
+        "D": "SAI — Ảo giác là sự phản ánh sai lệch."
+      }
+    },
+    {
+      "id": "q_ch2_06",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Mối quan hệ biện chứng Vật chất - Ý thức",
+      "difficulty": "Vận dụng",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Từ mối quan hệ biện chứng giữa vật chất và ý thức, Chủ nghĩa duy vật biện chứng rút ra nguyên tắc phương pháp luận cơ bản nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ cần có ý chí quyết tâm cao là có thể bỏ qua mọi điều kiện khách quan."
+        },
+        {
+          "key": "B",
+          "text": "Tôn trọng tính khách quan kết hợp phát huy tính năng động chủ quan."
+        },
+        {
+          "key": "C",
+          "text": "Thụ động chờ đợi điều kiện vật chất tự biến đổi, không cần nỗ lực chủ quan."
+        },
+        {
+          "key": "D",
+          "text": "Tách rời hoàn toàn lý luận khỏi hoạt động thực tiễn."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Vì vật chất quyết định ý thức và ý thức tác động trở lại vật chất qua thực tiễn, nên mọi hoạt động phải xuất phát từ thực tế khách quan đồng thời phát huy cao độ tính năng động sáng tạo của nhân tố con người.",
+      "optionExplanations": {
+        "A": "SAI — Đây là biểu hiện của bệnh chủ quan duy ý chí.",
+        "B": "ĐÚNG — Nguyên tắc tôn trọng khách quan kết hợp phát huy tính năng động chủ quan.",
+        "C": "SAI — Đây là thái độ thụ động, ỷ lại, bảo thủ.",
+        "D": "SAI — Trái với nguyên tắc thống nhất giữa lý luận và thực tiễn."
+      }
+    },
+    {
+      "id": "q_ch2_07",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Nguyên lý về mối liên hệ phổ biến",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Cơ sở lý luận trực tiếp của Quan điểm Toàn diện và Quan điểm Lịch sử - Cụ thể trong nhận thức và thực tiễn là nguyên lý nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nguyên lý về mối liên hệ phổ biến."
+        },
+        {
+          "key": "B",
+          "text": "Nguyên lý về sự đứng im tuyệt đối."
+        },
+        {
+          "key": "C",
+          "text": "Thuyết tương đối hẹp."
+        },
+        {
+          "key": "D",
+          "text": "Thuyết nhị nguyên."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Vì mọi sự vật đều tồn tại trong mối liên hệ phổ biến khách quan và đa dạng, nên khi xem xét sự vật phải đặt nó trong tổng thể các mối liên hệ (Quan điểm Toàn diện) và trong điều kiện không gian, thời gian xác định (Quan điểm Lịch sử - Cụ thể).",
+      "optionExplanations": {
+        "A": "ĐÚNG — Nguyên lý về mối liên hệ phổ biến là cơ sở lý luận của Quan điểm Toàn diện và Lịch sử - Cụ thể.",
+        "B": "SAI — Không có nguyên lý đứng im tuyệt đối trong phép biện chứng duy vật.",
+        "C": "SAI — Là lý thuyết vật lý của Einstein.",
+        "D": "SAI — Là trường phái bản thể luận tách rời vật chất và ý thức."
+      }
+    },
+    {
+      "id": "q_ch2_08",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Quy luật Mâu thuẫn (Hạt nhân phép biện chứng)",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Quy luật nào được V.I. Lênin gọi là 'hạt nhân của phép biện chứng', chỉ ra nguồn gốc và động lực bên trong của mọi sự vận động, phát triển?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quy luật chuyển hóa từ những thay đổi về lượng dẫn đến những thay đổi về chất."
+        },
+        {
+          "key": "B",
+          "text": "Quy luật thống nhất và đấu tranh của các mặt đối lập (Quy luật Mâu thuẫn)."
+        },
+        {
+          "key": "C",
+          "text": "Quy luật phủ định của phủ định."
+        },
+        {
+          "key": "D",
+          "text": "Quy luật bảo toàn năng lượng."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Quy luật thống nhất và đấu tranh của các mặt đối lập là hạt nhân của phép biện chứng duy vật vì nó giải thích trực tiếp nguồn gốc, động lực tự thân của mọi sự phát triển.",
+      "optionExplanations": {
+        "A": "SAI — Quy luật Lượng - Chất chỉ ra CÁCH THỨC của sự phát triển.",
+        "B": "ĐÚNG — Quy luật Mâu thuẫn là hạt nhân của phép biện chứng.",
+        "C": "SAI — Quy luật Phủ định của phủ định chỉ ra KHUYNH HƯỚNG phát triển theo đường xoáy ốc.",
+        "D": "SAI — Đây là định luật của khoa học tự nhiên (vật lý học)."
+      }
+    },
+    {
+      "id": "q_ch2_09",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Quy luật Phủ định của phủ định",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo Quy luật phủ định của phủ định, khuynh hướng chung của sự phát triển trong tự nhiên, xã hội và tư duy diễn ra theo hình thức nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đường thẳng tắp đi lên không bao giờ có bước quanh co."
+        },
+        {
+          "key": "B",
+          "text": "Vòng tròn khép kín lặp lại nguyên xi cái cũ."
+        },
+        {
+          "key": "C",
+          "text": "Đường xoáy ốc đi lên, có tính kế thừa biện chứng trên cơ sở cao hơn."
+        },
+        {
+          "key": "D",
+          "text": "Đường đi xuống liên tục do sự phủ định sạch trơn."
+        }
+      ],
+      "correctAnswer": "C",
+      "generalExplanation": "Phủ định biện chứng mang tính khách quan và tính kế thừa. Qua ít nhất hai lần phủ định, sự vật dường như quay lại điểm xuất phát nhưng ở trình độ cao hơn, tạo thành hình đường xoáy ốc.",
+      "optionExplanations": {
+        "A": "SAI — Phát triển thực tế luôn quanh co, phức tạp, không đi theo đường thẳng đơn giản.",
+        "B": "SAI — Vòng tròn khép kín là quan điểm tuần hoàn siêu hình, không có sự tiến lên.",
+        "C": "ĐÚNG — Đường xoáy ốc thể hiện cả tính kế thừa, tính lặp lại và tính tiến lên.",
+        "D": "SAI — Phủ định sạch trơn là phủ định siêu hình."
+      }
+    },
+    {
+      "id": "q_ch2_10",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Cặp phạm trù Cái riêng và Cái chung",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Nhận định nào sau đây phản ánh ĐÚNG mối quan hệ biện chứng giữa Cái riêng và Cái chung?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cái chung tồn tại độc lập, tách rời hoàn toàn khỏi cái riêng."
+        },
+        {
+          "key": "B",
+          "text": "Cái chung chỉ tồn tại trong cái riêng, thông qua cái riêng mà biểu hiện sự tồn tại của mình; cái riêng phong phú hơn cái chung, còn cái chung sâu sắc hơn cái riêng."
+        },
+        {
+          "key": "C",
+          "text": "Cái riêng hoàn toàn nằm gọn bên trong cái chung."
+        },
+        {
+          "key": "D",
+          "text": "Cái đơn nhất không bao giờ có thể chuyển hóa thành cái chung."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Theo phép biện chứng duy vật: Cái chung chỉ tồn tại trong cái riêng, thông qua cái riêng; cái riêng chỉ tồn tại trong mối liên hệ đưa tới cái chung; cái riêng là cái toàn bộ (phong phú hơn), cái chung là cái bộ phận (nhưng sâu sắc hơn).",
+      "optionExplanations": {
+        "A": "SAI — Đây là sai lầm của phái Duy thực duy tâm.",
+        "B": "ĐÚNG — Diễn đạt chính xác mối quan hệ biện chứng giữa cái riêng và cái chung.",
+        "C": "SAI — Ngược lại: cái chung là một bộ phận nằm trong cái riêng.",
+        "D": "SAI — Trong điều kiện nhất định, cái đơn nhất tiến bộ có thể chuyển hóa thành cái chung và ngược lại."
+      }
+    },
+    {
+      "id": "q_ch2_11",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Cặp phạm trù Nguyên nhân và Kết quả",
+      "difficulty": "Vận dụng",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong cặp phạm trù Nguyên nhân và Kết quả, mối quan hệ nào sau đây là ĐÚNG?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mọi hiện tượng xuất hiện trước về mặt thời gian đều là nguyên nhân của hiện tượng xuất hiện sau."
+        },
+        {
+          "key": "B",
+          "text": "Nguyên nhân luôn sinh ra kết quả, nhưng trong những điều kiện nhất định, kết quả có thể tác động trở lại nguyên nhân và trở thành nguyên nhân của một quá trình khác."
+        },
+        {
+          "key": "C",
+          "text": "Một nguyên nhân luôn chỉ sinh ra duy nhất một kết quả trong mọi điều kiện."
+        },
+        {
+          "key": "D",
+          "text": "Nguyên nhân và kết quả chỉ mang tính chủ quan do con người gán đặt."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Mối liên hệ nhân - quả có tính khách quan, phổ biến và tất yếu. Nguyên nhân sinh ra kết quả (kế tiếp thời gian và có tính sản sinh), kết quả tác động trở lại nguyên nhân, tạo thành chuỗi nhân quả vô tận.",
+      "optionExplanations": {
+        "A": "SAI — Kế tiếp về thời gian chưa chắc là nhân quả (ví dụ: ngày đến sau đêm nhưng đêm không phải nguyên nhân sinh ra ngày).",
+        "B": "ĐÚNG — Phản ánh đúng tính biện chứng và sự chuyển hóa giữa nguyên nhân và kết quả.",
+        "C": "SAI — Một nguyên nhân có thể sinh ra nhiều kết quả khác nhau tùy điều kiện.",
+        "D": "SAI — Đây là quan điểm duy tâm chủ quan của Hume."
+      }
+    },
+    {
+      "id": "q_ch2_12",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Cặp phạm trù Nội dung và Hình thức",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong mối quan hệ biện chứng giữa Nội dung và Hình thức, yếu tố nào thường xuyên biến đổi nhanh hơn và giữ vai trò quyết định?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hình thức biến đổi nhanh hơn và quyết định nội dung."
+        },
+        {
+          "key": "B",
+          "text": "Nội dung là yếu tố động, biến đổi nhanh hơn và quyết định hình thức; hình thức tương đối bền vững nhưng tác động trở lại thúc đẩy hoặc kìm hãm nội dung."
+        },
+        {
+          "key": "C",
+          "text": "Nội dung và hình thức luôn bất biến như nhau."
+        },
+        {
+          "key": "D",
+          "text": "Hình thức tồn tại độc lập không cần nội dung."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Nội dung luôn có xu hướng biến đổi nhanh hơn, giữ vai trò quyết định hình thức. Khi hình thức phù hợp với nội dung sẽ thúc đẩy nội dung phát triển; khi hình thức lỗi thời sẽ kìm hãm nội dung.",
+      "optionExplanations": {
+        "A": "SAI — Đảo ngược vai trò quyết định của nội dung.",
+        "B": "ĐÚNG — Phản ánh đúng quy luật vận động của nội dung và hình thức.",
+        "C": "SAI — Nội dung biến đổi năng động hơn hình thức.",
+        "D": "SAI — Không có nội dung nào không tồn tại trong một hình thức nhất định và ngược lại."
+      }
+    },
+    {
+      "id": "q_ch2_13",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Phạm trù Thực tiễn và vai trò đối với nhận thức",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Hình thức cơ bản nào của hoạt động thực tiễn giữ vai trò nguyên thủy nhất và quyết định nhất đối với các hình thức thực tiễn khác?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hoạt động sản xuất vật chất."
+        },
+        {
+          "key": "B",
+          "text": "Hoạt động thực nghiệm khoa học."
+        },
+        {
+          "key": "C",
+          "text": "Hoạt động giao lưu văn hóa - nghệ thuật."
+        },
+        {
+          "key": "D",
+          "text": "Hoạt động tranh luận học thuật."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Thực tiễn có 3 hình thức cơ bản: Hoạt động sản xuất vật chất, Hoạt động chính trị - xã hội và Hoạt động thực nghiệm khoa học. Trong đó, hoạt động sản xuất vật chất là hình thức sớm nhất, cơ bản nhất và quyết định nhất.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Sản xuất vật chất tạo ra điều kiện sinh tồn cho con người và làm cơ sở cho mọi hoạt động khác.",
+        "B": "SAI — Thực nghiệm khoa học là hình thức đặc biệt xuất hiện muộn hơn.",
+        "C": "SAI — Thuộc lĩnh vực đời sống tinh thần.",
+        "D": "SAI — Tranh luận học thuật là hoạt động tư duy lý luận, chưa phải hoạt động vật chất cảm tính."
+      }
+    },
+    {
+      "id": "q_ch2_14",
+      "chapterId": "chuong_2",
+      "chapterTitle": "Chủ nghĩa duy vật biện chứng",
+      "chapter": "Chương 2: Chủ nghĩa duy vật biện chứng",
+      "topic": "Con đường biện chứng của sự nhận thức chân lý",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo V.I. Lênin, con đường biện chứng của sự nhận thức chân lý diễn ra theo trình tự nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Từ tư duy trừu tượng đến trực quan sinh động và dừng lại ở sách vở."
+        },
+        {
+          "key": "B",
+          "text": "Từ trực quan sinh động đến tư duy trừu tượng, và từ tư duy trừu tượng đến thực tiễn."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ dừng lại ở cảm giác và tri giác trực tiếp."
+        },
+        {
+          "key": "D",
+          "text": "Đi từ suy đoán chủ quan mà không cần kiểm nghiệm bằng thực tiễn."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Trong 'Bút ký triết học', V.I. Lênin khái quát quy luật chung của quá trình nhận thức: 'Từ trực quan sinh động đến tư duy trừu tượng, và từ tư duy trừu tượng đến thực tiễn — đó là con đường biện chứng của sự nhận thức chân lý'.",
+      "optionExplanations": {
+        "A": "SAI — Đảo ngược trình tự nhận thức và thiếu khâu quay về thực tiễn.",
+        "B": "ĐÚNG — Luận điểm kinh điển của V.I. Lênin về hai giai đoạn nhận thức gắn liền với thực tiễn.",
+        "C": "SAI — Đây là hạn chế của chủ nghĩa duy cảm, không chạm được tới bản chất sự vật.",
+        "D": "SAI — Thiếu thực tiễn thì không có tiêu chuẩn kiểm tra chân lý."
+      }
+    },
+    {
+      "id": "q_ch3_01",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Sản xuất vật chất và Phương thức sản xuất",
+      "difficulty": "Nhận biết & Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo Chủ nghĩa duy vật lịch sử, yếu tố nào giữ vai trò là cơ sở trực tiếp của sự tồn tại và phát triển của xã hội loài người?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hoạt động sản xuất vật chất."
+        },
+        {
+          "key": "B",
+          "text": "Hoạt động sáng tạo nghệ thuật và tôn giáo."
+        },
+        {
+          "key": "C",
+          "text": "Điều kiện khí hậu và vị trí địa lý tự nhiên."
+        },
+        {
+          "key": "D",
+          "text": "Ý chí chủ quan của các cá nhân kiệt xuất."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Theo Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT, trang 288 – 291), sản xuất vật chất là quá trình con người sử dụng công cụ lao động tác động vào tự nhiên để tạo ra của cải vật chất; đây là tiền đề, cơ sở trực tiếp quyết định sự tồn tại và phát triển của xã hội.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Con người trước hết phải ăn, mặc, ở rồi mới có thể làm chính trị, khoa học, nghệ thuật; do đó sản xuất vật chất là cơ sở của đời sống xã hội.",
+        "B": "SAI — Sản xuất tinh thần hình thành và phát triển trên nền tảng của sản xuất vật chất.",
+        "C": "SAI — Điều kiện tự nhiên là yếu tố thường xuyên cần thiết nhưng không phải yếu tố quyết định trực tiếp sự phát triển xã hội.",
+        "D": "SAI — Đây là quan điểm duy tâm về lịch sử."
+      }
+    },
+    {
+      "id": "q_ch3_02",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Quy luật Lực lượng sản xuất - Quan hệ sản xuất",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong kết cấu của Lực lượng sản xuất, yếu tố nào giữ vai trò quyết định hàng đầu và yếu tố nào là yếu tố động nhất, cách mạng nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đối tượng lao động quyết định hàng đầu; đất đai là yếu tố động nhất."
+        },
+        {
+          "key": "B",
+          "text": "Người lao động giữ vai trò quyết định hàng đầu; công cụ lao động là yếu tố động nhất, cách mạng nhất."
+        },
+        {
+          "key": "C",
+          "text": "Quan hệ sở hữu giữ vai trò quyết định hàng đầu; phương tiện giao thông là yếu tố động nhất."
+        },
+        {
+          "key": "D",
+          "text": "Tài nguyên thiên nhiên quyết định hàng đầu; nhà xưởng là yếu tố động nhất."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Lực lượng sản xuất gồm Người lao động và Tư liệu sản xuất. Trong đó, Người lao động là nhân tố hàng đầu giữ vai trò quyết định (sáng tạo và sử dụng công cụ), còn Công cụ lao động là yếu tố động nhất, cách mạng nhất, phản ánh trình độ chinh phục tự nhiên của con người.",
+      "optionExplanations": {
+        "A": "SAI — Đối tượng lao động và đất đai là yếu tố vật chất thụ động nếu thiếu bàn tay, trí tuệ của người lao động.",
+        "B": "ĐÚNG — Người lao động là chủ thể sáng tạo của quá trình sản xuất, còn công cụ lao động luôn được cải tiến không ngừng kéo theo sự biến đổi của toàn bộ nền sản xuất.",
+        "C": "SAI — Quan hệ sở hữu thuộc về Quan hệ sản xuất, không nằm trong Lực lượng sản xuất.",
+        "D": "SAI — Tài nguyên và nhà xưởng chỉ là một bộ phận của tư liệu sản xuất."
+      }
+    },
+    {
+      "id": "q_ch3_03",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Cơ sở hạ tầng và Kiến trúc thượng tầng",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong triết học Mác - Lênin, khái niệm 'Cơ sở hạ tầng' (CSHT) của một xã hội dùng để chỉ điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ thống đường giao thông, cầu cống, điện lưới, sân bay và bến cảng của quốc gia."
+        },
+        {
+          "key": "B",
+          "text": "Toàn bộ những quan hệ sản xuất của một xã hội trong sự vận động hiện thực của chúng hợp thành cơ cấu kinh tế của xã hội đó."
+        },
+        {
+          "key": "C",
+          "text": "Toàn bộ hệ thống nhà trường, bệnh viện và các thiết chế văn hóa công cộng."
+        },
+        {
+          "key": "D",
+          "text": "Toàn bộ hệ thống pháp luật, hiến pháp và bộ máy cơ quan quyền lực nhà nước."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Cần tránh nhầm lẫn thuật ngữ 'cơ sở hạ tầng' trong triết học với 'hạ tầng kỹ thuật' trong kinh tế - xây dựng. Trong Chủ nghĩa duy vật lịch sử, Cơ sở hạ tầng là toàn bộ những quan hệ sản xuất (QHSX thống trị, QHSX tàn dư và QHSX mầm mống) hợp thành cơ cấu kinh tế của xã hội.",
+      "optionExplanations": {
+        "A": "SAI — Đây là khái niệm kết cấu hạ tầng kỹ thuật trong giao thông, xây dựng, không phải phạm trù Cơ sở hạ tầng trong triết học.",
+        "B": "ĐÚNG — Định nghĩa chuẩn trong Giáo trình Bộ GD&ĐT về Cơ sở hạ tầng.",
+        "C": "SAI — Đây là hạ tầng xã hội và các thiết chế giáo dục – y tế.",
+        "D": "SAI — Pháp luật và Nhà nước thuộc về Kiến trúc thượng tầng."
+      }
+    },
+    {
+      "id": "q_ch3_04",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Giai cấp và nguồn gốc giai cấp",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo định nghĩa giai cấp của V.I. Lênin, nguyên nhân trực tiếp dẫn đến sự ra đời của giai cấp trong lịch sử là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sự khác biệt về trình độ học vấn và năng khiếu cá nhân."
+        },
+        {
+          "key": "B",
+          "text": "Sự xuất hiện chế độ tư hữu đối với tư liệu sản xuất chủ yếu của xã hội."
+        },
+        {
+          "key": "C",
+          "text": "Sự phân chia ranh giới địa lý giữa các vùng miền."
+        },
+        {
+          "key": "D",
+          "text": "Sự ra đời của các tôn giáo lớn thời cổ đại."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Nguồn gốc sâu xa của sự phân hóa giai cấp là sự phát triển của lực lượng sản xuất làm năng suất lao động tăng lên, xuất hiện sản phẩm dư thừa; còn nguồn gốc trực tiếp quyết định sự ra đời của giai cấp là sự xuất hiện chế độ tư hữu về tư liệu sản xuất.",
+      "optionExplanations": {
+        "A": "SAI — Khác biệt cá nhân không tạo nên các tập đoàn giai cấp đối kháng về kinh tế.",
+        "B": "ĐÚNG — Chế độ tư hữu về tư liệu sản xuất trực tiếp phân chia xã hội thành giai cấp chiếm hữu tư liệu sản xuất và giai cấp bị tước đoạt tư liệu sản xuất.",
+        "C": "SAI — Địa lý không phải nguyên nhân kinh tế sinh ra giai cấp.",
+        "D": "SAI — Tôn giáo là hình thái ý thức xã hội, không phải nguyên nhân trực tiếp sinh ra giai cấp."
+      }
+    },
+    {
+      "id": "q_ch3_05",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Nhà nước và Cách mạng xã hội",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo quan điểm của Chủ nghĩa duy vật lịch sử, vấn đề cơ bản nhất của mọi cuộc cách mạng xã hội là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cải cách hệ thống giáo dục và chữ viết."
+        },
+        {
+          "key": "B",
+          "text": "Vấn đề giành chính quyền nhà nước về tay giai cấp cách mạng."
+        },
+        {
+          "key": "C",
+          "text": "Mở rộng giao thương quốc tế với các nước láng giềng."
+        },
+        {
+          "key": "D",
+          "text": "Thay đổi phong tục tập quán sinh hoạt hằng ngày."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Cách mạng xã hội nhằm lật đổ chế độ xã hội lỗi thời và thiết lập chế độ xã hội mới tiến bộ hơn. Vì Nhà nước là công cụ quyền lực mạnh nhất bảo vệ chế độ cũ, nên giành chính quyền nhà nước là vấn đề cơ bản của mọi cuộc cách mạng xã hội.",
+      "optionExplanations": {
+        "A": "SAI — Cải cách giáo dục là nhiệm vụ văn hóa sau khi đã có điều kiện chính trị phù hợp.",
+        "B": "ĐÚNG — Chỉ khi giành được chính quyền nhà nước, giai cấp cách mạng mới có công cụ cải tạo xã hội cũ và xây dựng quan hệ sản xuất mới.",
+        "C": "SAI — Giao thương quốc tế không phải mục tiêu cốt lõi phân biệt cách mạng xã hội với cải cách thông thường.",
+        "D": "SAI — Thay đổi tập quán là quá trình lâu dài thuộc lĩnh vực ý thức xã hội."
+      }
+    },
+    {
+      "id": "q_ch3_06",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Tồn tại xã hội và Ý thức xã hội",
+      "difficulty": "Vận dụng",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Hiện tượng kinh tế - xã hội đã phát triển theo hướng công nghiệp hóa, hiện đại hóa nhưng một số tâm lý sản xuất nhỏ, tập quán lạc hậu vẫn còn tồn tại dai dẳng là minh chứng cho biểu hiện nào của tính độc lập tương đối của ý thức xã hội?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ý thức xã hội có thể vượt trước tồn tại xã hội."
+        },
+        {
+          "key": "B",
+          "text": "Ý thức xã hội thường lạc hậu hơn so với tồn tại xã hội."
+        },
+        {
+          "key": "C",
+          "text": "Ý thức xã hội hoàn toàn tách rời, không có bất kỳ liên hệ nào với tồn tại xã hội."
+        },
+        {
+          "key": "D",
+          "text": "Ý thức xã hội luôn luôn quyết định tồn tại xã hội."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Một trong năm biểu hiện của tính độc lập tương đối của ý thức xã hội là ý thức xã hội thường lạc hậu hơn so với tồn tại xã hội, do tồn tại xã hội biến đổi nhanh hơn khả năng phản ánh của ý thức, đồng thời do sức ỳ của thói quen, truyền thống và tập quán cũ.",
+      "optionExplanations": {
+        "A": "SAI — Vượt trước tồn tại xã hội thường thể hiện ở các tư tưởng khoa học tiên tiến và dự báo tương lai.",
+        "B": "ĐÚNG — Sự tồn tại dai dẳng của thói quen, hủ tục cũ khi điều kiện vật chất đã đổi mới thể hiện rõ tính lạc hậu hơn của ý thức xã hội.",
+        "C": "SAI — Ý thức xã hội chỉ có tính độc lập tương đối, xét đến cùng vẫn do tồn tại xã hội quyết định.",
+        "D": "SAI — Quan điểm này đảo ngược mối quan hệ duy vật lịch sử (rơi vào duy tâm lịch sử)."
+      }
+    },
+    {
+      "id": "q_ch3_07",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Triết học về Con người",
+      "difficulty": "Nhận biết & Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong 'Luận cương về Phơ-bách', C. Mác đã đưa ra luận điểm kinh điển nào về bản chất con người?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bản chất con người là một cái trừu tượng, bất biến, cố hữu của cá nhân riêng biệt."
+        },
+        {
+          "key": "B",
+          "text": "Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội."
+        },
+        {
+          "key": "C",
+          "text": "Bản chất con người hoàn toàn do bản năng sinh học quyết định."
+        },
+        {
+          "key": "D",
+          "text": "Bản chất con người là sự phản chiếu của một linh hồn siêu nhiên."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Trong Luận điểm số 6 của 'Luận cương về Phơ-bách', C. Mác khẳng định: 'Bản chất con người không phải là một cái trừu tượng cố hữu của cá nhân riêng biệt. Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội.'",
+      "optionExplanations": {
+        "A": "SAI — Đây là quan điểm siêu hình mà C. Mác đã phê phán.",
+        "B": "ĐÚNG — Con người chỉ hình thành và bộc lộ bản chất người thông qua toàn bộ các quan hệ xã hội lịch sử - cụ thể.",
+        "C": "SAI — Mặt sinh học chỉ là tiền đề vật chất tự nhiên; mặt xã hội mới là yếu tố quy định bản chất người.",
+        "D": "SAI — Đây là quan điểm duy tâm tôn giáo, đối lập với chủ nghĩa duy vật lịch sử."
+      }
+    },
+    {
+      "id": "q_ch3_08",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Cấu trúc Quan hệ sản xuất",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong ba mặt cấu thành Quan hệ sản xuất (sở hữu tư liệu sản xuất, tổ chức quản lý, phân phối sản phẩm), mặt nào giữ vai trò quyết định nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quan hệ trong phân phối sản phẩm lao động."
+        },
+        {
+          "key": "B",
+          "text": "Quan hệ sở hữu đối với tư liệu sản xuất."
+        },
+        {
+          "key": "C",
+          "text": "Quan hệ giao tiếp ứng xử nơi công sở."
+        },
+        {
+          "key": "D",
+          "text": "Quan hệ tiêu dùng cá nhân."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Quan hệ sở hữu đối với tư liệu sản xuất là quan hệ xuất phát, cơ bản và quyết định bản chất của quan hệ tổ chức quản lý cũng như quan hệ phân phối sản phẩm.",
+      "optionExplanations": {
+        "A": "SAI — Phân phối sản phẩm phụ thuộc vào ai là người nắm giữ tư liệu sản xuất.",
+        "B": "ĐÚNG — Ai nắm quyền sở hữu tư liệu sản xuất sẽ nắm quyền tổ chức quản lý và chi phối phân phối.",
+        "C": "SAI — Không nằm trong 3 mặt kinh tế cơ bản của quan hệ sản xuất.",
+        "D": "SAI — Tiêu dùng cá nhân không quyết định bản chất quan hệ sản xuất."
+      }
+    },
+    {
+      "id": "q_ch3_09",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Kiến trúc thượng tầng",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong cấu trúc của Kiến trúc thượng tầng xã hội có giai cấp, thiết chế nào có vai trò quan trọng nhất và sức mạnh quyền lực trực tiếp nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhà nước."
+        },
+        {
+          "key": "B",
+          "text": "Các câu lạc bộ văn hóa nghệ thuật."
+        },
+        {
+          "key": "C",
+          "text": "Các hiệp hội thể thao."
+        },
+        {
+          "key": "D",
+          "text": "Các tổ chức từ thiện tự nguyện."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Nhà nước là thiết chế đặc biệt của kiến trúc thượng tầng vì nắm trong tay công cụ bạo lực chuyên nghiệp, pháp luật và nguồn lực tài chính quốc gia để bảo vệ cơ sở hạ tầng.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Nhà nước là công cụ quyền lực mạnh mẽ nhất của kiến trúc thượng tầng.",
+        "B": "SAI — Là thiết chế văn hóa, không có quyền lực cưỡng chế nhà nước.",
+        "C": "SAI — Không phải thiết chế quyền lực chính trị.",
+        "D": "SAI — Không có sức mạnh cưỡng chế pháp lý."
+      }
+    },
+    {
+      "id": "q_ch3_10",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Quá trình lịch sử - tự nhiên của Hình thái KT-XH",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Luận điểm 'Sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên' của C. Mác có hàm ý cốt lõi gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Xã hội loài người phát triển hoàn toàn tự phát như cây cỏ, không cần hoạt động của con người."
+        },
+        {
+          "key": "B",
+          "text": "Sự vận động, thay thế nhau của các hình thái kinh tế - xã hội tuân theo các quy luật khách quan không phụ thuộc ý muốn chủ quan, đồng thời vẫn cho phép những bước nhảy bỏ qua ở từng dân tộc cụ thể."
+        },
+        {
+          "key": "C",
+          "text": "Mọi quốc gia đều bắt buộc phải trải qua tuần tự đủ cả 5 hình thái kinh tế - xã hội không ngoại lệ."
+        },
+        {
+          "key": "D",
+          "text": "Lịch sử xã hội chỉ phụ thuộc vào điều kiện thời tiết và địa lý tự nhiên."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Tính 'lịch sử - tự nhiên' khẳng định xã hội vận động theo quy luật khách quan (trước hết là quy luật LLSX - QHSX), vừa có tính tuần tự chung của lịch sử nhân loại vừa có tính đặc thù bỏ qua một vài hình thái ở từng quốc gia cụ thể (như Việt Nam quá độ lên CNXH bỏ qua chế độ TBCN).",
+      "optionExplanations": {
+        "A": "SAI — Quy luật xã hội chỉ biểu hiện thông qua hoạt động có ý thức của con người.",
+        "B": "ĐÚNG — Nêu chính xác cả tính quy luật khách quan lẫn tính đa dạng bỏ qua trong lịch sử.",
+        "C": "SAI — Thực tế lịch sử cho thấy nhiều dân tộc đã có bước phát triển rút ngắn, bỏ qua một hình thái KT-XH.",
+        "D": "SAI — Đây là thuyết hoàn cảnh địa lý quyết định luận."
+      }
+    },
+    {
+      "id": "q_ch3_11",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Các hình thức cộng đồng người & Dân tộc",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trình tự phát triển lịch sử từ thấp đến cao của các hình thức cộng đồng người là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ lạc → Thị tộc → Dân tộc → Bộ tộc."
+        },
+        {
+          "key": "B",
+          "text": "Thị tộc → Bộ lạc → Bộ tộc → Dân tộc."
+        },
+        {
+          "key": "C",
+          "text": "Dân tộc → Bộ tộc → Bộ lạc → Thị tộc."
+        },
+        {
+          "key": "D",
+          "text": "Thị tộc → Dân tộc → Bộ lạc → Bộ tộc."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Lịch sử loài người phát triển tuần tự qua 4 hình thức cộng đồng người từ thấp đến cao: Thị tộc → Bộ lạc → Bộ tộc → Dân tộc.",
+      "optionExplanations": {
+        "A": "SAI — Sai thứ tự giữa Thị tộc – Bộ lạc và Bộ tộc – Dân tộc.",
+        "B": "ĐÚNG — Trình tự chuẩn theo Giáo trình Triết học Mác - Lênin (Bộ GD&ĐT).",
+        "C": "SAI — Đảo ngược hoàn toàn tiến trình lịch sử.",
+        "D": "SAI — Dân tộc là hình thức cộng đồng người phát triển cao nhất, hình thành sau cùng."
+      }
+    },
+    {
+      "id": "q_ch3_12",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Nguồn gốc ra đời của Nhà nước",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo quan điểm của Chủ nghĩa duy vật lịch sử, Nhà nước ra đời trực tiếp khi nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ngay từ khi loài người mới xuất hiện trên Trái Đất."
+        },
+        {
+          "key": "B",
+          "text": "Khi chế độ tư hữu xuất hiện và mâu thuẫn giai cấp trong xã hội phát triển đến mức không thể điều hòa được."
+        },
+        {
+          "key": "C",
+          "text": "Do sự thỏa thuận tự nguyện của tất cả mọi người không phân biệt giai cấp."
+        },
+        {
+          "key": "D",
+          "text": "Do một vị thần tối cao ban tặng cho loài người."
+        }
+      ],
+      "correctAnswer": "B",
+      "generalExplanation": "Nhà nước là một phạm trù lịch sử, không tồn tại vĩnh viễn. V.I. Lênin khẳng định: Nhà nước là sản phẩm và biểu hiện của những mâu thuẫn giai cấp không thể điều hòa được.",
+      "optionExplanations": {
+        "A": "SAI — Trong xã hội công xã nguyên thủy chưa có giai cấp nên chưa có Nhà nước.",
+        "B": "ĐÚNG — Mâu thuẫn giai cấp không thể điều hòa là nguyên nhân trực tiếp dẫn đến sự ra đời của Nhà nước.",
+        "C": "SAI — Đây là quan điểm 'Khế ước xã hội' của các nhà tư tưởng tư sản thế kỷ XVII – XVIII.",
+        "D": "SAI — Đây là thuyết thần quyền duy tâm."
+      }
+    },
+    {
+      "id": "q_ch3_13",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Các yếu tố cơ bản của Tồn tại xã hội",
+      "difficulty": "Nhận biết",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Trong ba yếu tố cơ bản cấu thành Tồn tại xã hội (điều kiện tự nhiên - địa lý, dân số và mật độ dân số, phương thức sản xuất vật chất), yếu tố nào giữ vai trò quyết định nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Điều kiện tự nhiên và vị trí địa lý."
+        },
+        {
+          "key": "B",
+          "text": "Quy mô và mật độ dân số."
+        },
+        {
+          "key": "C",
+          "text": "Phương thức sản xuất vật chất."
+        },
+        {
+          "key": "D",
+          "text": "Khí hậu ôn đới hay nhiệt đới."
+        }
+      ],
+      "correctAnswer": "C",
+      "generalExplanation": "Phương thức sản xuất vật chất là yếu tố cơ bản và quyết định nhất trong cấu trúc của Tồn tại xã hội vì nó trực tiếp quy định cách thức sinh sống và tổ chức xã hội của con người.",
+      "optionExplanations": {
+        "A": "SAI — Điều kiện tự nhiên ảnh hưởng đến tốc độ phát triển nhưng không quyết định bản chất xã hội.",
+        "B": "SAI — Dân số là điều kiện cần thiết nhưng không phải yếu tố quyết định nhất.",
+        "C": "ĐÚNG — Phương thức sản xuất vật chất giữ vai trò quyết định nhất.",
+        "D": "SAI — Chỉ là một khía cạnh của điều kiện tự nhiên."
+      }
+    },
+    {
+      "id": "q_ch3_14",
+      "chapterId": "chuong_3",
+      "chapterTitle": "Chủ nghĩa duy vật lịch sử",
+      "chapter": "Chương 3: Chủ nghĩa duy vật lịch sử",
+      "topic": "Vai trò của Quần chúng nhân dân trong lịch sử",
+      "difficulty": "Thông hiểu",
+      "slidePdfPath": "assets/slides/slide-triet-hoc.pdf",
+      "question": "Theo Chủ nghĩa duy vật lịch sử, lực lượng nào giữ vai trò là chủ thể chân chính sáng tạo ra lịch sử?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quần chúng nhân dân."
+        },
+        {
+          "key": "B",
+          "text": "Một số ít vĩ nhân, anh hùng tách rời khỏi nhân dân."
+        },
+        {
+          "key": "C",
+          "text": "Các tầng lớp thống trị bóc lột."
+        },
+        {
+          "key": "D",
+          "text": "Các thế lực siêu nhiên định sẵn số phận."
+        }
+      ],
+      "correctAnswer": "A",
+      "generalExplanation": "Quần chúng nhân dân là lực lượng sản xuất cơ bản của xã hội, là động lực cơ bản của mọi cuộc cách mạng xã hội và là người sáng tạo ra mọi giá trị vật chất và văn hóa tinh thần.",
+      "optionExplanations": {
+        "A": "ĐÚNG — Quần chúng nhân dân là chủ thể sáng tạo chân chính ra lịch sử; cá nhân kiệt xuất chỉ phát huy vai trò khi gắn bó với quần chúng.",
+        "B": "SAI — Tuyệt đối hóa cá nhân anh hùng là quan điểm duy tâm lịch sử.",
+        "C": "SAI — Không phải lực lượng trực tiếp sản xuất vật chất cho xã hội.",
+        "D": "SAI — Là quan điểm duy tâm tôn giáo."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_01",
+      "chapterId": "chuong_1",
+      "chapter": "Chương 1",
+      "front": "Khái niệm Triết học & Nguồn gốc ra đời",
+      "definition": "Triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới đó; là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy. Ra đời thế kỷ VIII–VI TCN từ 2 nguồn gốc: Nhận thức (tư duy trừu tượng) và Xã hội (phân công lao động trí óc – chân tay, phân hóa giai cấp).",
+      "methodology": "Giúp người học nhìn nhận mọi sự vật dưới góc độ khái quát, hệ thống và có chiều sâu lý luận thay vì chỉ dừng ở kinh nghiệm rời rạc."
+    },
+    {
+      "id": "fc_02",
+      "chapterId": "chuong_1",
+      "chapter": "Chương 1",
+      "front": "Vấn đề cơ bản của Triết học (Ph. Ăngghen)",
+      "definition": "Là mối quan hệ giữa tư duy với tồn tại (giữa ý thức với vật chất), gồm 2 mặt: (1) Mặt bản thể luận — cái nào có trước, cái nào quyết định cái nào? (Phân chia Duy vật / Duy tâm); (2) Mặt nhận thức luận — con người có khả năng nhận thức thế giới không? (Phân chia Khả tri / Bất khả tri).",
+      "methodology": "Là tiêu chuẩn lý luận nền tảng để xác lập lập trường thế giới quan duy vật khoa học và củng cố niềm tin vào năng lực nhận thức của con người."
+    },
+    {
+      "id": "fc_03",
+      "chapterId": "chuong_1",
+      "chapter": "Chương 1",
+      "front": "Chủ nghĩa Duy vật vs. Chủ nghĩa Duy tâm",
+      "definition": "Chủ nghĩa duy vật khẳng định vật chất có trước, quyết định ý thức (trải qua 3 hình thức: Chất phác cổ đại, Siêu hình thế kỷ XVII–XVIII, Duy vật biện chứng). Chủ nghĩa duy tâm khẳng định ý thức/tinh thần có trước, sản sinh ra giới tự nhiên (gồm Duy tâm chủ quan và Duy tâm khách quan).",
+      "methodology": "Kiên định lập trường duy vật biện chứng trong nghiên cứu khoa học và thực tiễn; đấu tranh khắc phục bệnh chủ quan duy ý chí và mê tín dị đoan."
+    },
+    {
+      "id": "fc_04",
+      "chapterId": "chuong_1",
+      "chapter": "Chương 1",
+      "front": "Phương pháp Biện chứng vs. Phương pháp Siêu hình",
+      "definition": "Phương pháp siêu hình xem xét sự vật cô lập, tĩnh tại, chỉ biến đổi thuần túy về lượng do tác động bên ngoài. Phương pháp biện chứng xem xét sự vật trong mối liên hệ phổ biến, vận động và tự thân phát triển cả về lượng và chất do giải quyết mâu thuẫn nội tại.",
+      "methodology": "Trong học tập và giải quyết vấn đề phải tư duy linh hoạt, đặt đối tượng trong bối cảnh liên hệ và xu hướng biến đổi, tránh cái nhìn cứng nhắc, phiến diện."
+    },
+    {
+      "id": "fc_05",
+      "chapterId": "chuong_1",
+      "chapter": "Chương 1",
+      "front": "Hai chức năng cơ bản của Triết học Mác - Lênin",
+      "definition": "Gồm: (1) Chức năng thế giới quan — định hướng nhận thức đúng đắn hiện thực khách quan và xây dựng nhân sinh quan cách mạng, khoa học; (2) Chức năng phương pháp luận — cung cấp hệ thống nguyên tắc chung nhất (khách quan, toàn diện, phát triển, lịch sử - cụ thể) cho nhận thức và thực tiễn.",
+      "methodology": "Vận dụng thống nhất giữa lý luận và thực tiễn; tránh cả hai thái cực giáo điều (xa rời thực tế) và kinh nghiệm chủ nghĩa (coi thường lý luận)."
+    },
+    {
+      "id": "fc_06",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Định nghĩa Vật chất của V.I. Lênin",
+      "definition": "Vật chất là một phạm trù triết học dùng để chỉ thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác. Thuộc tính cơ bản nhất là tồn tại khách quan; phương thức tồn tại là Vận động; hình thức tồn tại là Không gian và Thời gian.",
+      "methodology": "Khắc phục cuộc khủng hoảng vật lý học hiện đại, bác bỏ duy tâm và bất khả tri; đòi hỏi trong khoa học phải tôn trọng sự tồn tại khách quan của đối tượng."
+    },
+    {
+      "id": "fc_07",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Nguồn gốc & Bản chất của Ý thức",
+      "definition": "Ý thức có 2 nguồn gốc: Nguồn gốc tự nhiên (bộ óc người + thế giới khách quan tác động) là điều kiện cần; Nguồn gốc xã hội (Lao động + Ngôn ngữ) là yếu tố quyết định trực tiếp. Bản chất ý thức là hình ảnh chủ quan của thế giới khách quan, mang tính năng động, sáng tạo và bản chất xã hội.",
+      "methodology": "Coi trọng giáo dục, rèn luyện tư duy, phát huy vai trò của tri thức khoa học và hoạt động lao động thực tiễn để nâng cao năng lực sáng tạo của con người."
+    },
+    {
+      "id": "fc_08",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Mối quan hệ biện chứng Vật chất – Ý thức",
+      "definition": "Vật chất quyết định nguồn gốc, nội dung, bản chất và sự biến đổi của ý thức. Ngược lại, ý thức có tính độc lập tương đối và tác động trở lại vật chất thông qua hoạt động thực tiễn của con người (thúc đẩy nếu đúng quy luật, kìm hãm nếu sai lệch).",
+      "methodology": "Quán triệt nguyên tắc Tôn trọng tính khách quan kết hợp phát huy tính năng động chủ quan; chống bệnh chủ quan duy ý chí lẫn thái độ thụ động, trông chờ."
+    },
+    {
+      "id": "fc_09",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Nguyên lý về Mối liên hệ phổ biến",
+      "definition": "Mọi sự vật, hiện tượng và các mặt bên trong sự vật đều tồn tại trong sự quy định, tác động qua lại và chuyển hóa lẫn nhau. Mối liên hệ mang 3 tính chất: tính khách quan, tính phổ biến và tính đa dạng, phong phú.",
+      "methodology": "Rút ra Quan điểm Toàn diện (xem xét nhiều mặt, phân biệt mối liên hệ cơ bản/không cơ bản, chống phiến diện, chiết trung, ngụy biện) và Quan điểm Lịch sử - Cụ thể."
+    },
+    {
+      "id": "fc_10",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Nguyên lý về Sự phát triển",
+      "definition": "Phát triển là quá trình vận động tiến lên từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn. Phát triển có tính khách quan, tính phổ biến, tính kế thừa và tính đa dạng, phong phú.",
+      "methodology": "Rút ra Quan điểm Phát triển: đặt sự vật trong xu hướng vận động đi lên, nhạy bén phát hiện và ủng hộ cái mới hợp quy luật, khắc phục tư tưởng bảo thủ, định kiến."
+    },
+    {
+      "id": "fc_11",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Quy luật Lượng – Chất (Cách thức phát triển)",
+      "definition": "Chỉ ra CÁCH THỨC của sự vận động, phát triển: Mọi sự vật là sự thống nhất giữa Chất và Lượng. Sự tích lũy dần dần về Lượng trong giới hạn Độ khi đạt tới Điểm nút sẽ dẫn tới Bước nhảy làm chuyển hóa căn bản từ chất cũ sang chất mới.",
+      "methodology": "Kiên trì tích lũy về lượng từng bước để tạo biến đổi về chất; chống khuynh hướng 'tả khuynh' (nôn nóng đốt cháy giai đoạn) và 'hữu khuynh' (bảo thủ, không dám thực hiện bước nhảy khi đã đủ lượng)."
+    },
+    {
+      "id": "fc_12",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Quy luật Mâu thuẫn (Nguồn gốc & Động lực)",
+      "definition": "Là 'hạt nhân của phép biện chứng', chỉ ra NGUỒN GỐC và ĐỘNG LỰC bên trong của sự phát triển. Mọi sự vật đều chứa đựng các mặt đối lập vừa thống nhất (tương đối, tạm thời) vừa đấu tranh (tuyệt đối); giải quyết mâu thuẫn dẫn đến sự ra đời của sự vật mới.",
+      "methodology": "Không né tránh hay điều hòa mâu thuẫn; phải phân tích cụ thể từng loại mâu thuẫn (cơ bản, chủ yếu, thứ yếu) để có phương pháp giải quyết đúng thời điểm."
+    },
+    {
+      "id": "fc_13",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Quy luật Phủ định của phủ định (Khuynh hướng)",
+      "definition": "Chỉ ra KHUYNH HƯỚNG phát triển theo hình đường xoáy ốc đi lên. Phủ định biện chứng mang tính khách quan và tính kế thừa (lọc bỏ yếu tố lạc hậu, giữ lại hạt nhân hợp lý). Qua ít nhất 2 lần phủ định, cái mới dường như lặp lại cái cũ nhưng trên cơ sở cao hơn.",
+      "methodology": "Biết kế thừa có chọn lọc giá trị truyền thống và thành tựu nhân loại; chống thái độ 'phủ định sạch trơn' cũng như thái độ bảo thủ khư khư giữ cái lỗi thời."
+    },
+    {
+      "id": "fc_14",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 1: Cái riêng – Cái chung",
+      "definition": "Cái riêng là một sự vật, hiện tượng nhất định; Cái chung là những mặt, thuộc tính lặp lại ở nhiều cái riêng; Cái đơn nhất chỉ có ở một sự vật. Cái chung chỉ tồn tại trong cái riêng, thông qua cái riêng; cái riêng phong phú hơn cái chung, còn cái chung sâu sắc hơn cái riêng.",
+      "methodology": "Muốn tìm cái chung (quy luật) phải xuất phát từ nghiên cứu nhiều cái riêng; khi áp dụng cái chung vào từng cái riêng phải cá biệt hóa cho phù hợp điều kiện cụ thể."
+    },
+    {
+      "id": "fc_15",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 2: Nguyên nhân – Kết quả",
+      "definition": "Nguyên nhân là sự tương tác giữa các mặt trong một sự vật hoặc giữa các sự vật gây ra biến đổi nhất định (Kết quả). Mối liên hệ nhân - quả có tính khách quan, phổ biến, tất yếu; kết quả có thể tác động trở lại nguyên nhân và tạo thành chuỗi nhân quả vô tận.",
+      "methodology": "Muốn loại bỏ một hiện tượng xấu phải tìm và xóa bỏ nguyên nhân sinh ra nó; phân biệt rõ nguyên nhân chủ yếu, nguyên nhân trực tiếp với điều kiện và nguyên cớ."
+    },
+    {
+      "id": "fc_16",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 3: Tất nhiên – Ngẫu nhiên",
+      "definition": "Tất nhiên do nguyên nhân cơ bản bên trong quyết định, nhất định xảy ra như thế. Ngẫu nhiên do nguyên nhân bên ngoài hoặc sự ngẫu hợp quyết định, có thể xảy ra hoặc không. Tất nhiên bao giờ cũng vạch đường đi cho mình xuyên qua vô số cái ngẫu nhiên.",
+      "methodology": "Trong hoạt động thực tiễn phải căn cứ vào cái tất nhiên là chính, đồng thời phải có phương án dự phòng chủ động ứng phó với những biến cố ngẫu nhiên."
+    },
+    {
+      "id": "fc_17",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 4: Nội dung – Hình thức",
+      "definition": "Nội dung là tổng hợp tất cả các mặt, yếu tố tạo nên sự vật; Hình thức là phương thức tồn tại và biểu hiện của nội dung. Nội dung giữ vai trò quyết định và biến đổi nhanh hơn; hình thức tương đối bền vững nhưng tác động trở lại thúc đẩy hoặc kìm hãm nội dung.",
+      "methodology": "Muốn cải biến sự vật trước hết phải tác động vào nội dung, đồng thời chủ động đổi mới hình thức cho phù hợp; tránh bệnh hình thức chủ nghĩa."
+    },
+    {
+      "id": "fc_18",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 5: Bản chất – Hiện tượng",
+      "definition": "Bản chất là tổng hợp những mặt, mối liên hệ tất nhiên tương đối ổn định bên trong quy định sự vật; Hiện tượng là sự biểu hiện ra bên ngoài của bản chất. Bản chất luôn bộc lộ qua hiện tượng, còn hiện tượng nào cũng là biểu hiện ở mức độ nhất định của bản chất.",
+      "methodology": "Trong nhận thức không được dừng lại ở hiện tượng bề ngoài (đôi khi là giả tượng) mà phải đi sâu phân tích nhiều hiện tượng để nắm bắt đúng bản chất."
+    },
+    {
+      "id": "fc_19",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Cặp phạm trù 6: Khả năng – Hiện thực",
+      "definition": "Hiện thực là cái đang tồn tại trên thực tế; Khả năng là cái hiện chưa có nhưng sẽ có, sẽ tới khi có đủ điều kiện thích hợp. Khả năng và hiện thực tồn tại thống nhất, chuyển hóa lẫn nhau không ngừng trong quá trình phát triển.",
+      "methodology": "Phải dựa vào hiện thực để hoạch định mục tiêu, đồng thời tính toán đầy đủ các khả năng (đặc biệt là khả năng thực tế) và chủ động tạo điều kiện chuyển khả năng tốt thành hiện thực."
+    },
+    {
+      "id": "fc_20",
+      "chapterId": "chuong_2",
+      "chapter": "Chương 2",
+      "front": "Thực tiễn & Con đường biện chứng của nhận thức",
+      "definition": "Thực tiễn là toàn bộ hoạt động vật chất - cảm tính có tính lịch sử - xã hội nhằm cải tạo tự nhiên và xã hội (3 hình thức: Sản xuất vật chất, Chính trị - xã hội, Thực nghiệm khoa học). Thực tiễn là cơ sở, động lực, mục đích của nhận thức và là tiêu chuẩn kiểm tra chân lý.",
+      "methodology": "Quán triệt nguyên tắc Thống nhất giữa Lý luận và Thực tiễn ('học đi đôi với hành'); mọi lý thuyết đều phải được kiểm nghiệm và phát triển từ thực tiễn."
+    },
+    {
+      "id": "fc_21",
+      "chapterId": "chuong_3",
+      "chapter": "Chương 3",
+      "front": "Quy luật Lực lượng sản xuất – Quan hệ sản xuất",
+      "definition": "Là quy luật cơ bản nhất của sự vận động, phát triển xã hội. LLSX (Người lao động + Tư liệu sản xuất, trong đó công cụ lao động động nhất và khoa học là LLSX trực tiếp) quyết định QHSX (Sở hữu, Quản lý, Phân phối). QHSX tác động trở lại thúc đẩy (nếu phù hợp) hoặc kìm hãm (nếu không phù hợp) LLSX.",
+      "methodology": "Muốn phát triển kinh tế bền vững phải ưu tiên phát triển nguồn nhân lực chất lượng cao, đổi mới khoa học công nghệ đi đôi với hoàn thiện thể chế kinh tế phù hợp."
+    },
+    {
+      "id": "fc_22",
+      "chapterId": "chuong_3",
+      "chapter": "Chương 3",
+      "front": "Cơ sở hạ tầng (CSHT) – Kiến trúc thượng tầng (KTTT)",
+      "definition": "CSHT là toàn bộ các quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội. KTTT là toàn bộ quan điểm tư tưởng xã hội cùng các thiết chế tương ứng (Nhà nước mạnh nhất). CSHT quyết định KTTT; KTTT có tính độc lập tương đối và tác động mạnh mẽ trở lại CSHT.",
+      "methodology": "Cơ sở lý luận để kết hợp chặt chẽ giữa đổi mới kinh tế (trọng tâm) với đổi mới hệ thống chính trị và xây dựng Nhà nước pháp quyền xã hội chủ nghĩa."
+    },
+    {
+      "id": "fc_23",
+      "chapterId": "chuong_3",
+      "chapter": "Chương 3",
+      "front": "Học thuyết Hình thái Kinh tế - Xã hội",
+      "definition": "Hình thái KT-XH là một xã hội cụ thể trong từng nấc thang lịch sử với 3 yếu tố cấu thành: Lực lượng sản xuất, Quan hệ sản xuất (CSHT) và Kiến trúc thượng tầng. Sự phát triển của các hình thái KT-XH là một quá trình lịch sử - tự nhiên vừa có tính tuần tự vừa có bước nhảy bỏ qua.",
+      "methodology": "Khẳng định tính khoa học của con đường quá độ lên CNXH bỏ qua chế độ TBCN ở Việt Nam: bỏ qua xác lập thống trị QHSX và KTTT tư bản, nhưng kế thừa thành tựu khoa học công nghệ nhân loại."
+    },
+    {
+      "id": "fc_24",
+      "chapterId": "chuong_3",
+      "chapter": "Chương 3",
+      "front": "Tồn tại xã hội – Ý thức xã hội (Tính độc lập tương đối)",
+      "definition": "Tồn tại xã hội (Tự nhiên, Dân số, Phương thức sản xuất — quyết định nhất) quyết định Ý thức xã hội. Tuy nhiên Ý thức xã hội có 5 biểu hiện độc lập tương đối: thường lạc hậu hơn; có thể vượt trước; có tính kế thừa; tác động qua lại giữa các hình thái; tác động trở lại tồn tại xã hội.",
+      "methodology": "Xây dựng đời sống văn hóa, đạo đức mới phải gắn liền với phát triển kinh tế, đồng thời kiên trì giáo dục khắc phục các tập quán lạc hậu và phát huy tư tưởng khoa học tiên tiến."
+    },
+    {
+      "id": "fc_25",
+      "chapterId": "chuong_3",
+      "chapter": "Chương 3",
+      "front": "Triết học về Con người & Quần chúng nhân dân",
+      "definition": "Con người là thực thể sinh học - xã hội. 'Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội' (C. Mác). Con người vừa là sản phẩm vừa là chủ thể sáng tạo lịch sử; Quần chúng nhân dân là chủ thể chân chính sáng tạo ra lịch sử.",
+      "methodology": "Lấy con người làm trung tâm, vừa là mục tiêu vừa là động lực của sự phát triển; phát huy dân chủ và sức mạnh đại đoàn kết toàn dân tộc."
     }
   ],
   "essayPrompts": [
