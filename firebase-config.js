@@ -27,7 +27,7 @@ import {
  * 1. ĐỐI TƯỢNG CẤU HÌNH FIREBASE CHÍNH THỨC CỦA DỰ ÁN
  */
 export const firebaseConfig = {
-  apiKey: "AIzaSyA-IhadWZAhtPmivheeKErl2Uq6eKJP6hE",
+  apiKey: "AIzaSyBa8Oxs1tyBHTNzx81rgpF9aZa04bnJ0Es",
   authDomain: "luu-diem-triet-hoc.firebaseapp.com",
   projectId: "luu-diem-triet-hoc",
   storageBucket: "luu-diem-triet-hoc.firebasestorage.app",
